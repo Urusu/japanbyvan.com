@@ -101,10 +101,10 @@ gulp.task('script', callback => {
 
 gulp.task('build', ['clean', 'script', 'css', 'images', 'html']);
 
-gulp.task('deploy', ['build'], () => {
-  return gulp.src('./build/**/*')
-    .pipe(ghPages());
-});
+//gulp.task('deploy', ['build'], () => {
+//  return gulp.src('./build/**/*')
+//    .pipe(ghPages());
+//});
 
 
 gulp.task('default', ['build']);

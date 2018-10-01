@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Urusu/japanbyvan.com/issues"
   },
-  "homepage": "https://github.com/Urusu/japanbyvan.com#readme"
+  "homepage": "https://github.com/Urusu/japanbyvan.com#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }

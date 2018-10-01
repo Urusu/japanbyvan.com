@@ -105,11 +105,16 @@ gulp.task('script', callback => {
 gulp.task('build', ['clean', 'script', 'css', /*'images',*/ 'html']);
 
 gulp.task('deploy', ['build'], () => {
+    console.log(process.env.JBV_FTP_HOST, process.env.JBV_FTP_USER, process.env.JBV_FTP_CREDENTIAL)
     const conn = ftp.create( {
-		host:     process.env.HOST,
-		user:     process.env.USER,
-		password: process.env.CREDENTIAL,
-		parallel: 10
+		host:     process.env.JBV_FTP_HOST,
+		user:     process.env.JBV_FTP_USER,
+		password: process.env.JBV_FTP_CREDENTIAL,
+        parallel: 10,
+        secure: true,
+        secureOptions: { 
+            rejectUnauthorized: false 
+        }
     } );
     
     var globs = [

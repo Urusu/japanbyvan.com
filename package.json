@@ -40,6 +40,7 @@
     "jstransformer": "^1.0.0",
     "jstransformer-markdown-it": "^2.1.0",
     "node-sass-json-importer": "^4.1.0",
+    "vinyl-ftp": "^0.6.1",
     "webpack": "^4.20.2"
   },
   "devDependencies": {

@@ -24,7 +24,8 @@ const gulp = require('gulp'),
   webpack = require('webpack'),
   babel = require('gulp-babel'),
   webpackConfig = require('./webpack.config.babel'),
-  sftp = require('gulp-sftp');
+  sftp = require('gulp-sftp'),
+  ftp = require( 'vinyl-ftp' );
 
 let images;
 
@@ -104,13 +105,24 @@ gulp.task('script', callback => {
 gulp.task('build', ['clean', 'script', 'css', /*'images',*/ 'html']);
 
 gulp.task('deploy', ['build'], () => {
-    return gulp.src('./build/**/*')
-        .pipe(sftp({
-            host: process.env.HOST,
-            user: process.env.USER,
-            pass: process.env.CREDENTIAL,
-            remotePath: process.env.LOCATION
-        }));
+    const conn = ftp.create( {
+		host:     process.env.HOST,
+		user:     process.env.USER,
+		password: process.env.CREDENTIAL,
+		parallel: 10
+    } );
+    
+    var globs = [
+		'./build/**/*',
+	];
+
+	// using base = '.' will transfer everything to /public_html correctly
+	// turn off buffering in gulp.src for best performance
+
+	return gulp.src( globs, { base: '.', buffer: false } )
+		.pipe( conn.newer( process.env.LOCATION || '/' ) ) // only upload newer files
+		.pipe( conn.dest( process.env.LOCATION || '/' ) );
+       
 });
 
 

@@ -1,7 +1,6 @@
 'use strict';
 
 const gulp = require('gulp'),
-  dotenv = require('dotenv').config(),
   // markup
   pug = require('gulp-pug'),
   // content
@@ -101,10 +100,6 @@ gulp.task('script', callback => {
 
 
 gulp.task('build', ['clean', 'script', 'css', /*'images',*/ 'html']);
-
-gulp.task('deploy', ['build'], () => {
-
-});
 
 
 gulp.task('default', ['build']);

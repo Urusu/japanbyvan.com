@@ -1,6 +1,7 @@
 'use strict';
 
 const gulp = require('gulp'),
+  dotenv = require('dotenv').config(),
   // markup
   pug = require('gulp-pug'),
   // content
@@ -22,7 +23,8 @@ const gulp = require('gulp'),
   // scripts
   webpack = require('webpack'),
   babel = require('gulp-babel'),
-  webpackConfig = require('./webpack.config.babel');
+  webpackConfig = require('./webpack.config.babel'),
+  sftp = require('gulp-sftp');
 
 let images;
 
@@ -48,8 +50,8 @@ gulp.task('css', ['clean'], () => {
     .pipe(gulp.dest('./build/css'));
 });
 
-gulp.task('html', ['clean', 'images'], () => {
-  return gulp.src('./src/index.pug')
+gulp.task('html', ['clean'/*, 'images'*/], () => {
+  return gulp.src('./src/*.pug')
     .pipe( data({
       images: images
     }) )
@@ -99,12 +101,17 @@ gulp.task('script', callback => {
 });*/
 
 
-gulp.task('build', ['clean', 'script', 'css', 'images', 'html']);
+gulp.task('build', ['clean', 'script', 'css', /*'images',*/ 'html']);
 
-//gulp.task('deploy', ['build'], () => {
-//  return gulp.src('./build/**/*')
-//    .pipe(ghPages());
-//});
+gulp.task('deploy', ['build'], () => {
+    return gulp.src('./build/**/*')
+        .pipe(sftp({
+            host: process.env.HOST,
+            user: process.env.USER,
+            pass: process.env.CREDENTIAL,
+            remotePath: process.env.LOCATION
+        }));
+});
 
 
 gulp.task('default', ['build']);

@@ -17,8 +17,13 @@
   },
   "homepage": "https://github.com/Urusu/japanbyvan.com#readme",
   "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
     "autoprefixer": "^9.1.5",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
     "cssnano": "^4.1.4",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^8.0.0",
     "gulp-data": "^1.3.1",

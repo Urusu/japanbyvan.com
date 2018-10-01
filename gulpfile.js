@@ -11,8 +11,8 @@ const gulp = require('gulp'),
   // system
   del = require('del'),
   tap = require('gulp-tap'),
-  ghPages = require('gulp-gh-pages'),
-  publish = require('gulp-publish'),
+  //ghPages = require('gulp-gh-pages'),
+  //publish = require('gulp-publish'),
   // design
   sass = require('gulp-sass'),
   postcss = require('gulp-postcss'),

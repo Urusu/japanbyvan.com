@@ -1,0 +1,3 @@
+>Lisa and Urs are a lovely couple and were extremely helpful. We camped at an onsen at Takashima and took the train in to Kyoto & surrounding areas. The camper van sleeps 2 very comfortably - great for flexibility and seeing a bit more of the country.
+
+*Steve & Kathleen / UK*

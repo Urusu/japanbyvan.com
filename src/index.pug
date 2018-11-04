@@ -2,15 +2,9 @@ extends layout
 
 block body
   main
-    aside.images
-      h3.is-hidden Arbeiten
-
     section.contents
       h1.logo-wrap
         span.is-hidden Japan By Van
-        //include logo.svg
-        a.toggle.js-toggle(href="#")
-          span Mehr erfahren
-      div.contents__inner
-        aside.contact
-          include:markdown-it ../data/index.md
+        include jbv-logo.svg
+      div
+        include:markdown-it ../data/home/index.md

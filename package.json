@@ -57,6 +57,7 @@
     "webpack": "^4.20.2"
   },
   "devDependencies": {
-    "gulp-sftp": "^0.1.5"
+    "gulp-sftp": "^0.1.5",
+    "js-yaml": "^3.12.0"
   }
 }

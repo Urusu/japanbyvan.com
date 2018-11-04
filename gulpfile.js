@@ -11,7 +11,6 @@ const gulp = require('gulp'),
   // system
   del = require('del'),
   tap = require('gulp-tap'),
-  //ghPages = require('gulp-gh-pages'),
   //publish = require('gulp-publish'),
   // design
   sass = require('gulp-sass'),
@@ -22,7 +21,8 @@ const gulp = require('gulp'),
   // scripts
   webpack = require('webpack'),
   babel = require('gulp-babel'),
-  webpackConfig = require('./webpack.config.babel');
+  webpackConfig = require('./webpack.config.babel'),
+  yaml = require('js-yaml');
 
 let images;
 

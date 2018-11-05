@@ -32,6 +32,10 @@ h5,
 blockquote {
   font-family: 'Libre Baskerville', serif;
 }
+
+h2 {
+  font-size: 2.5em;
+}
 a {
   color: var(--interaction);
 }
@@ -41,7 +45,7 @@ a {
 }
 
 .max-width {
-  width: 28rem;
+  width: 40rem;
   margin: 0 auto;
 }
 

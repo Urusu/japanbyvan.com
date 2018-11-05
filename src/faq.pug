@@ -1,0 +1,9 @@
+extends layout
+
+block body
+  main
+    section.contents.max-width
+      include nav.pug
+      article
+        include:markdown-it ../data/faq/index.md
+      

@@ -77,6 +77,19 @@ a {
   font-weight: bold; 
   font-size: 1.2em;
 }
+.contact {
+  background: var(--coral);
+  padding: 1rem;
+  label {
+    display: block;
+  }
+  span {
+    display: block;
+  }
+}
+
+// emoji clicker
+
 
 .bro {
   transition: .8s transform ease-in-out;

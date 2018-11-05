@@ -2,24 +2,24 @@
   const navigation = [
   { 
     title: "The Vans",
-    route: "thevans",
+    route: "thevans.html",
   },{ 
     title: "Equipment",
-    route: "equipment",
+    route: "equipment.html",
   },{ 
     title: "FAQ",
-    route: "faq",
+    route: "faq.html",
   },{ 
     title: "About Us",
-    route: "aboutus",
+    route: "aboutus.html",
   },{ 
     title: "Contact",
-    route: "contact",
+    route: "#contact",
   }]
 
 nav.navigation
   h3.is-hidden Main Navigation
   ol.navigation__list
     each navItem in navigation
-      li.navigation__item: a(href=navItem.route + '.html')= navItem.title
+      li.navigation__item: a(href=navItem.route)= navItem.title
   

@@ -85,14 +85,14 @@ function broFountain(e) {
   }
 }
 
+/*
 document.addEventListener('click', broFountain);
 document.addEventListener('touchstart', broFountain);
-
-
+*/
+/*
 const wx = .2 + (Math.random() * window.innerWidth * .6);
 const wy = .2 + (Math.random() * window.innerHeight * .6);
 
-/*
 for (let i = 0; i < 20; i++) {
   broFest({
     pageX: wx + i * 2,

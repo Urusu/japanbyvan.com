@@ -77,3 +77,72 @@ a {
   font-weight: bold; 
   font-size: 1.2em;
 }
+
+.bro {
+  transition: .8s transform ease-in-out;
+  position: absolute;
+  will-change: transform;
+  font-size: 2em;
+  &__shadow {
+    z-index: -1;
+    left: 0;
+    top: 0;
+    position: absolute;
+    content: '';
+    width: 100%;
+    padding-top: 100%;
+    box-shadow: 0 0 .3rem rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, .1);
+    border-radius: 100%;
+    transform: translate(0, 35%) rotateX(70deg);
+    animation: .8s bounce-shadow ease-in;
+    will-change: transform;
+  }
+
+  &__inner {
+    display: block;
+    animation: .8s bounce ease-in;
+    will-change: transform;
+    transform-origin: 50% 0%;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  40%,
+  50% {
+    transform: translateY(-260%) scaleY(1.1) scaleX(.9);
+  }
+
+  50% {
+    transform: translateY(-300%) scaleY(1.2) scaleX(.8);
+  }
+
+  70% {
+    transform: translateY(30%) scaleY(.8) scaleX(1.5);
+  }
+}
+
+@keyframes bounce-shadow {
+
+  0%,
+  100% {
+    transform: translate(0, 35%) rotateX(70deg) scale(1);
+  }
+
+  40%,
+  50% {
+    transform: translate(0, 35%) rotateX(70deg) scale(.5);
+  }
+
+  50% {
+    transform: translate(0, 35%) rotateX(70deg) scale(.7);
+  }
+
+  70% {
+    transform: translate(0, 35%) rotateX(70deg) scaleX(.9);
+  }
+}

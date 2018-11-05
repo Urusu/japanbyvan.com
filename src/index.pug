@@ -2,9 +2,15 @@ extends layout
 
 block body
   main
-    section.contents
-      h1.logo-wrap
-        span.is-hidden Japan By Van
-        include jbv-logo.svg
-      div
+    section.contents.max-width
+      aside.t-lead
+        include:markdown-it ../data/home/intro.md
+      include nav.pug
+      article
         include:markdown-it ../data/home/index.md
+      article
+        include:markdown-it ../data/home/reviews/review1.md
+        include:markdown-it ../data/home/reviews/review2.md
+        include:markdown-it ../data/home/reviews/review3.md
+      aside
+        include:markdown-it ../data/home/notes/index.md

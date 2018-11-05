@@ -1,4 +1,4 @@
-##PLEASE NOTE##
+## Please note
 All drivers are required to present his/her driver’s license. The following licenses are valid in Japan to drive a rented vehicle:
 
 1. Japanese driver’s license

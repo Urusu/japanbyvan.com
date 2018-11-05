@@ -1,0 +1,25 @@
+-
+  const navigation = [
+  { 
+    title: "The Vans",
+    route: "thevans",
+  },{ 
+    title: "Equipment",
+    route: "equipment",
+  },{ 
+    title: "FAQ",
+    route: "faq",
+  },{ 
+    title: "About Us",
+    route: "aboutus",
+  },{ 
+    title: "Contact",
+    route: "contact",
+  }]
+
+nav.navigation
+  h3.is-hidden Main Navigation
+  ol.navigation__list
+    each navItem in navigation
+      li.navigation__item: a(href=navItem.route + '.html')= navItem.title
+  

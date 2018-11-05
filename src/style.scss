@@ -1,3 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Source+Sans+Pro:400,600');
+:root {
+  --red: #f04e45;
+  --coral: #ff8780;
+  --black: #212121;
+  --white: #fff;
+
+  --text: var(--back);
+  --interaction: var(--red);
+  --background: var(--white);
+}
+html {
+  font-size: calc(1vw + .3rem);
+  color: var(--text);
+  background-color: var(--background);
+}
+body {
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 1rem;
+  line-height: 1.5;
+}
 svg, img {
   max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+blockquote {
+  font-family: 'Libre Baskerville', serif;
+}
+a {
+  color: var(--interaction);
+}
+
+.is-hidden {
+  display: none;
+}
+
+.max-width {
+  width: 28rem;
+  margin: 0 auto;
+}
+
+.logo-wrap {
+  width: 6rem;
+  margin: 0 auto;
+}
+
+.t-lead {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.8rem;
+  margin: 2em -10vw 3em;
+  line-height: 1.6;
+}
+
+.navigation {
+  margin: 0 0 4rem;
+}
+
+.navigation__list {
+  display: flex;
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+}
+.navigation__item {
+  flex: 1 1 auto; 
+  display: inline-block;
+  font-weight: bold; 
+  font-size: 1.2em;
 }

@@ -19,6 +19,19 @@ body {
   padding: 1rem;
   line-height: 1.5; }
 
+input, textarea, button {
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: .5em .75em;
+  display: block;
+  width: 100%;
+  border: none; }
+
+button {
+  background: var(--black);
+  color: var(--white); }
+
 svg, img {
   max-width: 100%;
   height: auto; }
@@ -72,10 +85,12 @@ a {
 .contact {
   background: var(--coral);
   padding: 1rem; }
-  .contact label {
-    display: block; }
   .contact span {
-    display: block; }
+    display: block;
+    margin-bottom: 0.5em; }
+  .contact__field {
+    display: block;
+    padding-bottom: 1em; }
 
 .bro {
   transition: .8s transform ease-in-out;

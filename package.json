@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build",
     "build": "gulp build",
-    "deploy": "git subtree push --prefix build origin deploy",
+    "deploy": "git subtree push --prefix build origin integrate",
     "test": "npm run build"
   },
   "repository": {

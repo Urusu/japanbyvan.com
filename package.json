@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build",
     "build": "gulp build",
-    "deploy": "git subtree push --prefix build origin deploy && curl ${JBV_WEBHOOK}",
+    "deploy": "git subtree push --prefix build origin deploy",
     "test": "npm run build"
   },
   "repository": {

@@ -4,9 +4,11 @@
   --coral: #ff8780;
   --black: #212121;
   --white: #fff;
+  --turquoise: #CBFBF1;
+  --light-turquoise: #76FAE0;
 
-  --text: var(--back);
-  --interaction: var(--red);
+  --text: var(--black);
+  --interaction: var(--light-turquoise);
   --background: var(--white);
 }
 html {
@@ -65,7 +67,7 @@ a {
 }
 
 .logo-wrap {
-  width: 6rem;
+  width: 12rem;
   margin: 0 auto;
 }
 
@@ -93,7 +95,7 @@ a {
   font-size: 1.2em;
 }
 .contact {
-  background: var(--coral);
+  background: var(--turquoise);
   padding: 1rem;
   
   span {

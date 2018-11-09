@@ -63,6 +63,23 @@ a {
   width: 12rem;
   margin: 0 auto; }
 
+.factbox {
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.fact {
+  width: 31%;
+  margin: 20px 1.15%;
+  text-align: center;
+  float: left;
+  height: 300px; }
+
+.fact-image {
+  height: 3em;
+  text-align: center; }
+
 .t-lead {
   font-family: 'Libre Baskerville', serif;
   font-size: 1.8rem;

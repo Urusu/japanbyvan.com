@@ -83,7 +83,7 @@ a {
 .t-lead {
   font-family: 'Libre Baskerville', serif;
   font-size: 1.8rem;
-  margin: 2em -10vw 3em;
+  margin: 0 auto;
   line-height: 1.6; }
 
 .navigation {

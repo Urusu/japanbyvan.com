@@ -1,0 +1,1 @@
+Free pick-up / drop-off in Kyoto city

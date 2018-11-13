@@ -8,6 +8,7 @@ block body
         a(href='#contact')
           button(type='button') BOOK NOW -- CLICK HERE
       include services.pug
+      include:markdown-it ../data/home/intro.md
       include nav.pug
       article
         include:markdown-it ../data/home/reviews/index.md

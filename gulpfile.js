@@ -63,7 +63,7 @@ gulp.task('css:watch', () => {
 
 gulp.task('images', ['clean'], () => {
   images = [];
-  return gulp.src('./data/images/*')
+  return gulp.src('./data/**/*.{jpg,png,svg}')
     .pipe(tap((file) => {
       const pathStr = file.path;
       images.push(file.path.split('/').pop());

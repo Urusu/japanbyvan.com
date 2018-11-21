@@ -48,7 +48,7 @@ gulp.task('css', ['clean'], () => {
     .pipe(gulp.dest('./build/css'));
 });
 
-gulp.task('html', ['clean'/*, 'images'*/], () => {
+gulp.task('html', ['clean', 'images'], () => {
   return gulp.src('./src/*.pug')
     .pipe( data({
       images: images
@@ -63,8 +63,8 @@ gulp.task('css:watch', () => {
 
 gulp.task('images', ['clean'], () => {
   images = [];
-  return gulp.src('./data/**/*.{jpg,png,svg}')
-    .pipe(tap((file) => {
+  gulp.src('./data/**/*.{jpg,png,svg}')
+    /**.pipe(tap((file) => {
       const pathStr = file.path;
       images.push(file.path.split('/').pop());
     }))
@@ -74,6 +74,7 @@ gulp.task('images', ['clean'], () => {
       }
     }))
     .pipe(imagemin())
+    **/
     .pipe(gulp.dest('./build/images/'))
 });
 
@@ -99,7 +100,7 @@ gulp.task('script', callback => {
 });*/
 
 
-gulp.task('build', ['clean', 'script', 'css', /*'images',*/ 'html']);
+gulp.task('build', ['clean', 'script', 'css', 'images', 'html']);
 
 
 gulp.task('default', ['build']);

@@ -57,6 +57,10 @@ a {
   color: var(--interaction);
 }
 
+ul, li {
+  margin: 1rem auto;
+}
+
 .is-hidden {
   display: none;
 }
@@ -73,17 +77,17 @@ a {
 
 .service-box {
   width: 100%;
-  height: 600px;
-  margin: 0 auto;
-  overflow: hidden;
+  height: auto;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .service {
   width: 31%;
   margin: 20px 1.15%;
   text-align: center;
-  float: left;
-  height: 300px;
 }
 
 .service-image {

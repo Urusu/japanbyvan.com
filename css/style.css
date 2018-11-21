@@ -34,6 +34,12 @@ button {
   background: var(--black);
   color: var(--white); }
 
+.button {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold; }
+
 svg, img {
   max-width: 100%;
   height: auto; }

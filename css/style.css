@@ -89,6 +89,19 @@ ul, li {
   height: 3em;
   text-align: center; }
 
+.van-container {
+  width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-evenly; }
+
+.van {
+  margin: 20px 1.15%; }
+
+.van-image {
+  text-align: center; }
+
 .t-lead {
   font-family: 'Libre Baskerville', serif;
   font-size: 1.8rem;
@@ -97,7 +110,7 @@ ul, li {
   text-align: center; }
 
 .navigation {
-  margin: 0 0 4rem; }
+  margin: 0 0 1rem; }
 
 .navigation__list {
   display: flex;

@@ -59,6 +59,7 @@ blockquote {
 
 h2 {
   font-size: 2.5em;
+  margin: 20px auto;
 }
 a {
   color: var(--interaction);
@@ -112,13 +113,11 @@ ul, li {
 }
 
 .van {
-  //width: 31%;
-  margin: 20px 1.15%;
+  margin: 5px 1.15%;
   //text-align: center;
 }
 
 .van-image {
-  //height: 3em;
   text-align: center;
 }
 

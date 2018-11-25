@@ -21,8 +21,11 @@ html(lang='en')
         include jbv-logo.svg
     block body
     include contact.pug
+    script(src='lightgallery.min.js')
+    script(src='lightgallery.js')
     script(src='main.js')
-    script(src='js/lightgallery.min.js')
+    script(type="text/javascript") lightGallery(document.getElementById('lightgallery'));
+    
       
 
 

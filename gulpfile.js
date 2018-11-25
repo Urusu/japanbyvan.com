@@ -36,7 +36,7 @@ gulp.task('css', ['clean'], () => {
     cssnano()
   ];
 
-  return gulp.src('./src/**/*.{scss,css}')
+  return gulp.src('./src/**/*.scss')
     .pipe(sass({
       includePaths: [
         './node_modules',
@@ -84,6 +84,12 @@ gulp.task('script', ['clean'], () => {
     .pipe(babel())
     .pipe(gulp.dest('build'));
 });
+
+gulp.task('lightgallery', ['clean'], () => {
+  return gulp
+    .src(['src/fonts/**/*', 'src/images/**/*', 'src/js/**/*', 'src/css/**/*'], {base: 'src'})
+    .pipe(gulp.dest('build'));
+});
 /*
 gulp.task('script', callback => {
   var myConfig = Object.create(webpackConfig);
@@ -100,7 +106,7 @@ gulp.task('script', callback => {
 });*/
 
 
-gulp.task('build', ['clean', 'script', 'css', 'images', 'html']);
+gulp.task('build', ['clean', 'script', 'css', 'images', 'lightgallery', 'html']);
 
 
 gulp.task('default', ['build']);

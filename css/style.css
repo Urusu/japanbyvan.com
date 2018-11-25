@@ -103,6 +103,13 @@ ul, li {
 .van-image {
   text-align: center; }
 
+.hiacegallery {
+  width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-evenly; }
+
 .t-lead {
   font-family: 'Libre Baskerville', serif;
   font-size: 1.8rem;

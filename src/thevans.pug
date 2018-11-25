@@ -8,11 +8,13 @@ block body
       include nav.pug
       article
         h1#bongo Mazda Bongo Friendee
-        include:markdown-it ../data/thevans/bongo/index.md
+        include:markdown-it ../data/thevans/bongo/index.md       
         h1#hiace Toyota HiAce
+        include ../data/thevans/hiace/gallery.html
         include:markdown-it ../data/thevans/hiace/index.md
         h1 Our Equipment
         include:markdown-it ../data/equipment/index.md
+    script(type="text/javascript") lightGallery(document.getElementById('lightgallery'))
 
-      //aside
-      //  include:markdown-it ../data/home/notes/index.md
+    //aside
+    //  include:markdown-it ../data/home/notes/index.md

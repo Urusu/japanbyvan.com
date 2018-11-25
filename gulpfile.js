@@ -36,7 +36,7 @@ gulp.task('css', ['clean'], () => {
     cssnano()
   ];
 
-  return gulp.src('./src/**/*.scss')
+  return gulp.src('./src/**/*.{scss,css}')
     .pipe(sass({
       includePaths: [
         './node_modules',

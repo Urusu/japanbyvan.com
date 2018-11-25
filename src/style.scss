@@ -58,8 +58,9 @@ blockquote {
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2rem;
   margin: 20px auto;
+  text-align: center;
 }
 a {
   color: var(--interaction);
@@ -121,13 +122,18 @@ ul, li {
   text-align: center;
 }
 
-.hiacegallery {
+.hiacegallery, .bongogallery {
   width: 100%;
   height: auto;
   margin: 1rem auto;
   display: flex;
-  //flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.thumbnail {
+  width: 30%;
+  height: auto;
 }
 
 .t-lead {

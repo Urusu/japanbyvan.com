@@ -3,10 +3,10 @@ Ideal for 2 adults and 1 or 2 kids. It is a very comfortable ride and the highli
 ## Prices
 |  |  |
 | --- | --- |
-| January- April, June, September-November | JPY8900/Day |
-| May, July, August | JPY9900/Day |
-| Cleaning Fee | JPY8000 |
-| Security Deposit | JPY100`000|
+| January- April, June, September-November | JPY 8900/Day |
+| May, July, August | JPY 9900/Day |
+| Cleaning Fee | JPY 8000 |
+| Security Deposit | JPY 100`000|
   
 
 ## Specs 

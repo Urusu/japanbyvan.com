@@ -163,6 +163,7 @@ ul, li {
 
 table {
   width: 100%;
+  margin: 1rem, 
 }
 
 td {
@@ -171,7 +172,7 @@ td {
 
 .contact {
   background: var(--turquoise);
-  padding: 1rem;
+  padding: 1rem, 1rem;
   
   span {
     display: block;

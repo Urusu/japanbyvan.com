@@ -15,7 +15,7 @@ html {
   color: var(--text);
   background-color: var(--background); }
 
-body {
+body, head {
   font-size: 1rem;
   font-family: 'Source Sans Pro', sans-serif;
   padding: 1rem;
@@ -154,6 +154,14 @@ td {
   .contact__field {
     display: block;
     padding-bottom: 1em; }
+
+.social-media-container {
+  display: flex;
+  justify-content: flex-end; }
+
+.social-media {
+  width: 2rem;
+  height: auto; }
 
 .bro {
   transition: .8s transform ease-in-out;

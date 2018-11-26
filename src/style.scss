@@ -160,6 +160,15 @@ ul, li {
   font-weight: bold; 
   font-size: 1.2em;
 }
+
+table {
+  width: 100%;
+}
+
+td {
+  text-align: left;
+}
+
 .contact {
   background: var(--turquoise);
   padding: 1rem;

@@ -9,10 +9,22 @@ block body
       article
         h2#bongo Mazda Bongo Friendee
         include ../data/thevans/bongo/gallery.html
-        include:markdown-it ../data/thevans/bongo/index.md       
+        include:markdown-it ../data/thevans/bongo/index.md
+        h2 Prices
+        .van-price
+          include:markdown-it ../data/thevans/bongo/prices.md
+        h2 Specs
+        .van-specs
+          include:markdown-it ../data/thevans/bongo/specs.md
         h2#hiace Toyota HiAce
         include ../data/thevans/hiace/gallery.html
         include:markdown-it ../data/thevans/hiace/index.md
+        h2 Prices
+        .van-price
+          include:markdown-it ../data/thevans/hiace/prices.md
+        h2 Specs
+        .van-specs
+          include:markdown-it ../data/thevans/hiace/specs.md
         h2 Our Equipment
         include ../data/equipment/gallery.html
         include:markdown-it ../data/equipment/index.md

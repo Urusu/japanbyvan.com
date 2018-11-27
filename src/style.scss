@@ -59,7 +59,7 @@ blockquote {
 
 h2 {
   font-size: 2rem;
-  margin: 20px auto;
+  margin: 0.5rem auto;
   text-align: center;
 }
 a {
@@ -122,6 +122,20 @@ ul, li {
   text-align: center;
 }
 
+.van-price {
+  border-style: solid;
+  padding: 0.3rem;
+  border-radius: 2rem;
+}
+
+.van-specs {
+  background-color: #CBFBF1;
+  height: auto;
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 2rem;
+}
+
 .hiacegallery, .bongogallery, .equipmentgallery {
   width: 100%;
   height: auto;
@@ -163,7 +177,8 @@ ul, li {
 
 table {
   width: 100%;
-  margin: 1rem, 
+  //margin: 1rem;
+  padding: 0.7rem;
 }
 
 td {

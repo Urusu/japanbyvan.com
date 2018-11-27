@@ -1,1 +1,1 @@
-Free pick-up / drop-off in Kyoto city
+*   Free pick-up / drop-off in Kyoto city area

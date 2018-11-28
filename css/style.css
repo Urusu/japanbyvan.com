@@ -166,6 +166,12 @@ td {
   .contact__field {
     display: block;
     padding-bottom: 1em; }
+  .contact__container {
+    display: flex;
+    padding-bottom: 1em;
+    justify-content: space-between; }
+  .contact__date {
+    width: 45%; }
 
 .header-icon-container {
   width: 40rem;

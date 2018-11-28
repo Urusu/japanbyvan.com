@@ -168,8 +168,10 @@ td {
     padding-bottom: 1em; }
 
 .social-media-container {
+  width: 40rem;
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  margin: auto; }
 
 .social-media {
   width: 2rem;

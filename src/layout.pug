@@ -16,13 +16,12 @@ html(lang='en')
     link(rel='stylesheet', href='css/lightgallery.css')
 
   body
-    header
-      include social-media.pug
+    include social-media.pug
     h1.logo-wrap
       span.is-hidden Japan By Van
       a(href="./index.html")
         include jbv-logo.svg
-    block test
+    block body
     include contact.pug
     script(src='js/lightgallery.min.js')
     script(src='js/lightgallery.js')

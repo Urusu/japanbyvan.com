@@ -1,12 +1,14 @@
 doctype html
 
 html(lang='en')
+
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
 
 
     title japanbyvan.com
+    
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
     meta(name='format-detection', content='telephone=no')
 
@@ -25,7 +27,7 @@ html(lang='en')
       span.is-hidden Japan By Van
       a(href="./index.html")
         include jbv-logo.svg
-    block body
+    block test
     include contact.pug
     script(src='js/lightgallery.min.js')
     script(src='js/lightgallery.js')
@@ -33,7 +35,3 @@ html(lang='en')
     script(type="text/javascript") lightGallery(document.querySelector('.bongogallery'));
     script(type="text/javascript") lightGallery(document.querySelector('.hiacegallery'));
     script(type="text/javascript") lightGallery(document.querySelector('.equipmentgallery'));
-    
-      
-
-

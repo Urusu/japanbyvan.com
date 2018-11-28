@@ -1,15 +1,23 @@
 aside.contact#contact
   .max-width
-    h3.contact__title How can we help you today
+    h3.contact__title Make an inquiry or ask us anything
     form(action="https://formspree.io/contact@japanbyvan.com", method="post")
+      p *Required fields
       label.contact__field
-        span Name
+        span Name*
         input(type="text", name="name", required)
       label.contact__field
-        span E-Mail
+        span E-Mail*
         input(type="text", name="_replyto", required)
+      .contact__container
+        label.contact__date
+          span Pick-Up
+          input(type="date", name="from")
+        label.contact__date
+          span Drop-Off
+          input(type="date", name="to")
       label.contact__message
-        span Your massage
+        span Your message*
         textarea(name="message", cols="30", rows="10", required)
       label.contact__subject
         input(type="hidden", name="_subject", value="Japan By Van Inquiry")

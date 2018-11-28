@@ -197,6 +197,15 @@ td {
     display: block;
     padding-bottom: 1em;
   }
+  &__container {
+    display: flex;
+    padding-bottom: 1em;
+    justify-content: space-between;
+  }
+  &__date {
+    width: 45%;
+  }
+  
 }
 
 .header-icon-container {

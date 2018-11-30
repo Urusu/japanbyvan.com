@@ -110,12 +110,13 @@ ul, li {
   margin: 1rem auto;
   display: flex;
   //flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .van {
   margin: 5px 1.15%;
   //text-align: center;
+  width: 45%;
 }
 
 .van-image {

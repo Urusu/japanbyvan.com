@@ -5,4 +5,4 @@ A half Swiss/half Japanese/Swiss couple based near Lake Biwa in Otsu, Shiga Pref
 We just love to share our passion with you and are happy to assist you before and during your trip.  
 [Contact](#contact) us if you have any questions!
 
-![AboutUs](../data/aboutus/img/aboutus.jpg)
+![AboutUs](./images/aboutus/img/aboutus.jpg)

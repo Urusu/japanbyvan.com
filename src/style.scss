@@ -84,6 +84,12 @@ ul, li {
   margin: 0 auto;
 }
 
+.header-image {
+  background: url('./images/jbv.jpg');
+  //background-size: 100% auto;
+  height: 20rem;
+}
+
 .service-box {
   width: 100%;
   height: auto;
@@ -109,13 +115,11 @@ ul, li {
   height: auto;
   margin: 1rem auto;
   display: flex;
-  //flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .van {
   margin: 5px 1.15%;
-  //text-align: center;
   width: 45%;
 }
 
@@ -129,7 +133,7 @@ ul, li {
   border-radius: 2rem;
 }
 
-.van-specs {
+.van-specs, .intro {
   background-color: #CBFBF1;
   height: auto;
   width: 100%;
@@ -137,7 +141,7 @@ ul, li {
   border-radius: 2rem;
 }
 
-.hiacegallery, .bongogallery, .equipmentgallery {
+.hiacegallery, /*.bongogallery,*/ .equipmentgallery {
   width: 100%;
   height: auto;
   margin: 1rem auto;

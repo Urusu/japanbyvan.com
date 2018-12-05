@@ -14,9 +14,15 @@ html(lang='en')
 
     link(rel='stylesheet', href='css/style.css')
     link(rel='stylesheet', href='css/lightgallery.css')
+    link(rel='stylesheet', href='css/lightslider.css')
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+    script(src='js/lightslider.js')
+
 
   body
     include social-media.pug
+    header.header-image
     h1.logo-wrap
       span.is-hidden Japan By Van
       a(href="./index.html")
@@ -25,6 +31,19 @@ html(lang='en')
     include contact.pug
     script(src='js/lightgallery.min.js')
     script(src='main.js')
-    script(type="text/javascript") lightGallery(document.querySelector('.bongogallery'));
+
+    script.
+      $(document).ready(function() {
+        $(".bongogallery").lightSlider({
+          gallery: true,
+          item: 2,
+          loop:true,
+          slideMargin: 10,
+          thumbItem: 8,
+          keyPress: true
+        }); 
+      });
+    //script(type="text/javascript") lightGallery(document.querySelector('.hiacegallery'));
+    //script(type="text/javascript") lightGallery(document.querySelector('.bongogallery'));
     script(type="text/javascript") lightGallery(document.querySelector('.hiacegallery'));
     script(type="text/javascript") lightGallery(document.querySelector('.equipmentgallery'));

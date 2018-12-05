@@ -1,2 +1,2 @@
-*   1GB free wifi/week
-*   Tablet included
+\- 1GB free wifi/week  
+\- Tablet included

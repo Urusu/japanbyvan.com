@@ -1,3 +1,5 @@
+## FAQ
+
 ### Where can I pick up/ drop off the van?
 
 Our office is located in Otsu City, 10minutes by train from Kyoto station. We arrange pick up and drop off individually depending on your schedule and needs, however we always offer free pick up and drop off within Otsu and Kyoto city. Please contact us beforehand if you'd like to pick up the van in another city (additional charge depending on the distance to our office).

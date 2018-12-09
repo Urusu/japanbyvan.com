@@ -22,11 +22,12 @@ html(lang='en')
 
   body
     include social-media.pug
-    header.header-image
-    h1.logo-wrap
-      span.is-hidden Japan By Van
-      a(href="./index.html")
-        include jbv-logo.svg
+    header
+      img.header-image(src="./images/banner-logo.jpg", alt="Japan by van")
+    //h1.logo-wrap
+    //  span.is-hidden Japan By Van
+    //  a(href="./index.html")
+    //    include jbv-logo.svg
     block body
     include contact.pug
     script(src='js/lightgallery.min.js')

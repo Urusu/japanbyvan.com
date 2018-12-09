@@ -85,9 +85,12 @@ ul, li {
 }
 
 .header-image {
-  background: url('./images/jbv.jpg');
-  //background-size: 100% auto;
-  height: 20rem;
+  //background-image: url('../images/banner-logo.jpg');
+  //background-repeat: no-repeat;
+  //background-size: cover;
+  //background-size: 100% 100%;
+  //height: 600px;
+  width: 100%;
 }
 
 .service-box {
@@ -110,6 +113,12 @@ ul, li {
   text-align: center;
 }
 
+.van-information-container {
+  border-style: solid;
+  padding: 0.3rem;
+  border-radius: 2rem;
+}
+
 .van-container {
   width: 100%;
   height: auto;
@@ -128,17 +137,40 @@ ul, li {
 }
 
 .van-price {
-  border-style: solid;
-  padding: 0.3rem;
+  //border-style: solid;
+  //padding: 0.3rem;
+  //border-radius: 2rem;
+  background-color: #CBFBF1;
+  height: auto;
+  width: 100%;  
   border-radius: 2rem;
 }
 
-.van-specs, .intro {
+.van-specs {
   background-color: #CBFBF1;
   height: auto;
   width: 100%;
+  //padding: 1.2rem;
+  border-radius: 2rem;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #CBFBF1;
   padding: 1.2rem;
   border-radius: 2rem;
+}
+
+.intro-content {
+  width: 65%;
+  text-align: left;
+}
+
+.intro-map {
+  width: 30%;
 }
 
 .hiacegallery, /*.bongogallery,*/ .equipmentgallery {
@@ -178,6 +210,7 @@ ul, li {
   display: inline-block;
   font-weight: bold; 
   font-size: 1.2em;
+  text-align: center;
 }
 
 table {

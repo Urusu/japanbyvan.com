@@ -97,7 +97,8 @@ ul, li {
 .van-information-container {
   border-style: solid;
   padding: 0.3rem;
-  border-radius: 2rem; }
+  border-radius: 2rem;
+  margin-bottom: 3rem; }
 
 .van-container {
   width: 100%;

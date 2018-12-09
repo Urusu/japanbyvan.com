@@ -6,9 +6,12 @@
   --white: #fff;
   --turquoise: #CBFBF1;
   --light-turquoise: #76FAE0;
+  --light-green: #CBFBEF;
+  --darker-green: #66D2B7;
   --text: var(--black);
-  --interaction: var(--light-turquoise);
-  --background: var(--white); }
+  --interaction: var(--darker-green);
+  --background: var(--white);
+  --background-fill: var(--light-green); }
 
 html {
   font-size: calc(1vw + .3rem);
@@ -112,26 +115,29 @@ ul, li {
   width: 45%; }
 
 .van-image {
-  text-align: center; }
+  text-align: center;
+  border-radius: 2rem; }
 
 .van-price {
-  background-color: #CBFBF1;
+  background-color: var(--background-fill);
   height: auto;
   width: 100%;
   border-radius: 2rem; }
 
 .van-specs {
-  background-color: #CBFBF1;
+  background-color: var(--background-fill);
   height: auto;
   width: 100%;
   border-radius: 2rem; }
+
+.intro-container {
+  background: var(--background-fill); }
 
 .intro {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: #CBFBF1;
   padding: 1.2rem;
   border-radius: 2rem; }
 
@@ -185,7 +191,7 @@ td {
   text-align: left; }
 
 .contact {
-  background: var(--turquoise);
+  background: var(--background-fill);
   padding: 1rem, 1rem; }
   .contact span {
     display: block;

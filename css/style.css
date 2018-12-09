@@ -74,6 +74,9 @@ ul, li {
   width: 12rem;
   margin: 0 auto; }
 
+.header-image {
+  width: 100%; }
+
 .service-box {
   width: 100%;
   height: auto;
@@ -91,6 +94,11 @@ ul, li {
   height: 3em;
   text-align: center; }
 
+.van-information-container {
+  border-style: solid;
+  padding: 0.3rem;
+  border-radius: 2rem; }
+
 .van-container {
   width: 100%;
   height: auto;
@@ -106,18 +114,34 @@ ul, li {
   text-align: center; }
 
 .van-price {
-  border-style: solid;
-  padding: 0.3rem;
+  background-color: #CBFBF1;
+  height: auto;
+  width: 100%;
   border-radius: 2rem; }
 
 .van-specs {
   background-color: #CBFBF1;
   height: auto;
   width: 100%;
+  border-radius: 2rem; }
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #CBFBF1;
   padding: 1.2rem;
   border-radius: 2rem; }
 
-.hiacegallery, .bongogallery, .equipmentgallery {
+.intro-content {
+  width: 65%;
+  text-align: left; }
+
+.intro-map {
+  width: 30%; }
+
+.hiacegallery, .equipmentgallery {
   width: 100%;
   height: auto;
   margin: 1rem auto;
@@ -149,7 +173,8 @@ ul, li {
   flex: 1 1 auto;
   display: inline-block;
   font-weight: bold;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  text-align: center; }
 
 table {
   width: 100%;

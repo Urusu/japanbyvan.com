@@ -78,7 +78,8 @@ ul, li {
   margin: 0 auto; }
 
 .header-image {
-  width: 100%; }
+  width: 100%;
+  background: var(--background-fill); }
 
 .service-box {
   width: 100%;

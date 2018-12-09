@@ -8,7 +8,10 @@ block body
         a(class="button" href='#contact') make an inquiry!
       include services.pug
       .intro
-        include:markdown-it ../data/home/intro.md
+        .intro-content
+          include:markdown-it ../data/home/intro.md
+        .intro-map
+          include ./images/jbv-location.svg
       include nav.pug
       include vanprofile.pug
       article

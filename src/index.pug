@@ -6,13 +6,16 @@ block body
       aside.t-lead
         include:markdown-it ../data/home/tagline.md
         a(class="button" href='#contact') make an inquiry!
-      include services.pug
-      .intro
-        .intro-content
-          include:markdown-it ../data/home/intro.md
-        .intro-map
-          include ./images/jbv-location.svg
       include nav.pug
+      include services.pug
+    aside.intro-container
+      .max-width
+        .intro
+          .intro-content
+            include:markdown-it ../data/home/intro.md
+          .intro-map
+            include ./images/jbv-location.svg
+    section.contents.max-width
       include vanprofile.pug
       article
         include:markdown-it ../data/home/reviews/index.md

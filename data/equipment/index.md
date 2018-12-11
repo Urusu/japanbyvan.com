@@ -10,11 +10,3 @@
 | Blanket | Winter tires (Nov.-April) |
 | Tablet with free Wifi (1GB/Week) | First aid kit |
 | and Navigation system in english and japanese
-
-## Additional equipment
-\*\***FEE PER RENTAL PERIOD\*\***
-| | |
-| --- | --- |
-| Child Seat | JPY 2000 |
-| Additional sleeping bag/ Futon | JPY 1000|
-| Bike rack | JPY 2500 |

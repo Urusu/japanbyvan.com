@@ -49,6 +49,15 @@ svg, img {
   max-width: 100%;
   height: auto; }
 
+/**
+h1,
+h2,
+h3,
+h4,
+h5,
+blockquote {
+  font-family: 'Libre Baskerville', serif;
+}**/
 h2 {
   font-size: 2rem;
   margin: 0.5rem auto;
@@ -109,7 +118,8 @@ ul, li {
   border-style: solid;
   padding: 0.3rem;
   border-radius: 2rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  border-color: var(--background-fill); }
 
 .van-container {
   width: 100%;

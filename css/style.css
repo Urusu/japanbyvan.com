@@ -63,6 +63,9 @@ h2 {
   margin: 0.5rem auto;
   text-align: center; }
 
+h4 {
+  text-align: center; }
+
 a {
   color: var(--interaction); }
 

@@ -142,7 +142,7 @@ ul, li {
   width: 100%;
   border-radius: 2rem; }
 
-.van-specs {
+.van-specs, .equipment-info {
   background-color: var(--background-fill);
   height: auto;
   width: 100%;

@@ -25,8 +25,10 @@ block body
           h2 Specs
           .van-specs
             include:markdown-it ../data/thevans/hiace/specs.md
-        h2 Equipment Included
-        include ../data/equipment/gallery.html
-        include:markdown-it ../data/equipment/index.md
+        .van-information-container
+          h2 Equipment Included
+          include ../data/equipment/gallery.html
+          .equipment-info
+            include:markdown-it ../data/equipment/index.md
     //aside
     //  include:markdown-it ../data/home/notes/index.md

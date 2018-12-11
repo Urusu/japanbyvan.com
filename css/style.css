@@ -8,10 +8,12 @@
   --light-turquoise: #76FAE0;
   --light-green: #CBFBEF;
   --darker-green: #66D2B7;
+  --blueish: #64CDC5;
+  --dark-blueish: #23978F;
   --text: var(--black);
-  --interaction: var(--darker-green);
+  --interaction: var(--dark-blueish);
   --background: var(--white);
-  --background-fill: var(--light-green); }
+  --background-fill: var(--blueish); }
 
 html {
   font-size: calc(1vw + .3rem);
@@ -47,14 +49,6 @@ svg, img {
   max-width: 100%;
   height: auto; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-blockquote {
-  font-family: 'Libre Baskerville', serif; }
-
 h2 {
   font-size: 2rem;
   margin: 0.5rem auto;
@@ -77,9 +71,22 @@ ul, li {
   width: 12rem;
   margin: 0 auto; }
 
+.banner {
+  display: flex;
+  justify-content: space-between; }
+
+.social-media {
+  position: absolute;
+  top: 2rem;
+  right: 2rem; }
+
+.social-media-table td {
+  text-align: center; }
+
 .header-image {
   width: 100%;
-  background: var(--background-fill); }
+  background: var(--background-fill);
+  padding-top: 1rem; }
 
 .service-box {
   width: 100%;
@@ -162,7 +169,6 @@ ul, li {
   height: auto; }
 
 .t-lead {
-  font-family: 'Libre Baskerville', serif;
   font-size: 1.8rem;
   margin: 0 auto;
   line-height: 1.6;
@@ -193,7 +199,7 @@ td {
 
 .contact {
   background: var(--background-fill);
-  padding: 1rem, 1rem; }
+  padding-top: 1rem; }
   .contact span {
     display: block;
     margin-bottom: 0.5em; }
@@ -210,12 +216,22 @@ td {
 .header-icon-container {
   width: 40rem;
   display: flex;
-  justify-content: flex-end;
-  margin: auto; }
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  border-style: solid;
+  border-radius: 2rem; }
 
 .header-icon {
-  width: 2rem;
-  height: auto; }
+  width: 1.2rem;
+  height: auto;
+  margin: 0 1rem;
+  vertical-align: middle; }
+
+.social-media-tagline {
+  height: auto;
+  text-align: center;
+  margin: 0 2rem; }
 
 .bro {
   transition: .8s transform ease-in-out;

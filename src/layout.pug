@@ -21,19 +21,35 @@ html(lang='en')
 
 
   body
-    include social-media.pug
+    // social-media.pug
     //header
     //  span.is-hidden Japan By Van
     //  a(href="./index.html")
     //    img.header-image(src="./images/banner-logo.jpg", alt="Japan by van")
     //h1.logo-wrap
     header.header-image
-      .logo-wrap
-        span.is-hidden Japan By Van
-        a(href="./index.html")
-          include jbv-logo.svg
-      .t-lead
-        include:markdown-it ../data/home/tagline.md
+        .banner  
+          .logo-wrap
+            span.is-hidden Japan By Van
+            a(href="./index.html")
+              include jbv-logo.svg
+          .social-media
+            table.social-media-table
+              tr
+                td INSTAGRAM:
+                td 
+                  a(href="https://www.instagram.com/japanbyvan")
+                    img(class="header-icon", src="./images/home/icons/svg/instagram.svg", alt="Instagram")
+              tr
+                td FACEBOOK: 
+                td 
+                  a(href="https://www.facebook.com")
+                    img(class="header-icon", src="./images/home/icons/svg/facebook.svg", alt="Facebook")
+              tr 
+                td PHONE:
+                td +81 (0)80-8149-0487
+        .t-lead
+          include:markdown-it ../data/home/tagline.md
     block body
     include contact.pug
     script(src='js/lightgallery.min.js')

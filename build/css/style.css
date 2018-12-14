@@ -93,8 +93,9 @@ ul, li {
   margin: 0 auto; }
 
 .banner {
+  display: -webkit-flex;
   display: flex;
-  justify-content: space-between; }
+  justify-content: center; }
 
 .social-media {
   position: absolute;

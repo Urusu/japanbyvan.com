@@ -125,6 +125,14 @@ ul, li {
   text-align: center
 }
 
+@media all and (max-width: 719px) {
+  .social-media-table td {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+}
+
+
 .header-image {
   width: 100%;  
   background: var(--background-fill);

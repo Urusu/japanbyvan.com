@@ -111,6 +111,7 @@ ul, li {
 .banner {
   display: -webkit-flex;
   display: flex;
+  justify-content: -webkit-center;
   justify-content: center;
 }
 
@@ -217,14 +218,14 @@ ul, li {
   width: 30%;
 }
 
-.hiacegallery, /*.bongogallery,*/ .equipmentgallery {
+/*.hiacegallery, .bongogallery, .equipmentgallery {
   width: 100%;
   height: auto;
   margin: 1rem auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
+}*/
 
 .thumbnail {
   width: 23%;

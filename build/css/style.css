@@ -272,7 +272,7 @@ td {
 .about-us {
   display: block;
   width: 50%;
-  margin: 0 auto; }
+  margin: 2rem auto; }
 
 .bro {
   transition: .8s transform ease-in-out;

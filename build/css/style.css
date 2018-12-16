@@ -114,7 +114,8 @@ ul, li {
 .header-image {
   width: 100%;
   background: var(--background-fill);
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  padding-bottom: 0.2rem; }
 
 .service-box {
   width: 100%;
@@ -196,8 +197,8 @@ ul, li {
   width: 23%;
   height: auto; }
 
-.t-lead {
-  font-size: 1.8rem;
+.t-lead, .t-lead p {
+  font-size: 1.4rem;
   margin: 0 auto;
   line-height: 1.6;
   text-align: center;

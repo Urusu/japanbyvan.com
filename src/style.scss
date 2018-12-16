@@ -137,6 +137,7 @@ ul, li {
   width: 100%;  
   background: var(--background-fill);
   padding-top: 1rem;
+  padding-bottom: 0.2rem;
 }
 
 .service-box {
@@ -240,9 +241,9 @@ ul, li {
   height: auto;
 }
 
-.t-lead {
+.t-lead, .t-lead p {
   //font-family: 'Libre Baskerville', serif;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   margin: 0 auto;
   line-height: 1.6;
   text-align: center;

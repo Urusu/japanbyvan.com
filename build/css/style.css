@@ -53,15 +53,6 @@ svg, img {
   max-width: 100%;
   height: auto; }
 
-/**
-h1,
-h2,
-h3,
-h4,
-h5,
-blockquote {
-  font-family: 'Libre Baskerville', serif;
-}**/
 h2 {
   font-size: 2rem;
   margin: 0.5rem auto;
@@ -185,14 +176,6 @@ ul, li {
 .intro-map {
   width: 30%; }
 
-/*.hiacegallery, .bongogallery, .equipmentgallery {
-  width: 100%;
-  height: auto;
-  margin: 1rem auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}*/
 .thumbnail {
   width: 23%;
   height: auto; }

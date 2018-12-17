@@ -12,7 +12,6 @@
   --dark-blueish: #23978F;
 
   --text: var(--black);
-  //--interaction: var(--light-turquoise);
   --interaction: var(--dark-blueish);
   --background: var(--white);
   --background-fill: var(--blueish);
@@ -58,15 +57,6 @@ svg, img {
   max-width: 100%;
   height: auto;
 }
-/**
-h1,
-h2,
-h3,
-h4,
-h5,
-blockquote {
-  font-family: 'Libre Baskerville', serif;
-}**/
 
 h2 {
   font-size: 2rem;
@@ -187,9 +177,6 @@ ul, li {
 }
 
 .van-price {
-  //border-style: solid;
-  //padding: 0.3rem;
-  //border-radius: 2rem;
   background-color: var(--background-fill);
   height: auto;
   width: 100%;  
@@ -200,7 +187,6 @@ ul, li {
   background-color: var(--background-fill);
   height: auto;
   width: 100%;
-  //padding: 1.2rem;
   border-radius: 2rem;
 }
 
@@ -212,8 +198,6 @@ ul, li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  //width: 100%;
-  //background-color: var(--background-fill);
   padding: 1.2rem;
   border-radius: 2rem;
 }
@@ -227,22 +211,12 @@ ul, li {
   width: 30%;
 }
 
-/*.hiacegallery, .bongogallery, .equipmentgallery {
-  width: 100%;
-  height: auto;
-  margin: 1rem auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}*/
-
 .thumbnail {
   width: 23%;
   height: auto;
 }
 
 .t-lead, .t-lead p {
-  //font-family: 'Libre Baskerville', serif;
   font-size: 1.4rem;
   margin: 0 auto;
   line-height: 1.6;
@@ -270,7 +244,6 @@ ul, li {
 
 table {
   width: 100%;
-  //margin: 1rem;
   padding: 0.7rem;
 }
 

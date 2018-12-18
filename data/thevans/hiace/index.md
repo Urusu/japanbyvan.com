@@ -1,1 +1,1 @@
-For two adults and maybe a child, but there’s only one bed ;-) Interior built from scratch. The ultimate bus/van feeling.
+Toyota Hiace, our newest family member, is suitable for 2 adults. The interior is built from scratch and includes a comfortable double bed (1.4m x 1.9m), dual battery system, fridge-freezer, multiple USB ports and a spacious shelf with cooking equipment and storage space. The van is small enough to fit in any standard parking lot which makes traveling in Japan a breeze.

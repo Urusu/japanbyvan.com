@@ -90,6 +90,12 @@ gulp.task('lightgallery', ['clean'], () => {
     .src(['src/fonts/**/*', 'src/images/**/*', 'src/js/**/*', 'src/css/**/*'], {base: 'src'})
     .pipe(gulp.dest('build'));
 });
+
+gulp.task('favicon', ['clean'], () => {
+  return gulp
+    .src(['src/favicon/**/*'], {base: 'src'})
+    .pipe(gulp.dest('build'));
+});
 /*
 gulp.task('script', callback => {
   var myConfig = Object.create(webpackConfig);
@@ -106,7 +112,7 @@ gulp.task('script', callback => {
 });*/
 
 
-gulp.task('build', ['clean', 'script', 'css', 'images', 'lightgallery', 'html']);
+gulp.task('build', ['clean', 'script', 'css', 'images', 'lightgallery', 'favicon', 'html']);
 
 
 gulp.task('default', ['build']);

@@ -1,3 +1,3 @@
 Bongo Friendee is compact enough to drive through the narrow streets of Japan's cities but big enough to accommodate 2-3 adults (or 2 adults and 2 children). 
-The middle seats can be converted in a double bed (1.35x2m) and there's additional space in the roof tent for 1 adult or 2 children. 
+The middle seats can be converted in a double bed (1.35 x 2m) and there's additional space in the roof tent for 1 adult or 2 children. 
 Equipment includes dual battery system, fridge-freezer, bedding and cooking equipment. Check out the [camping equipment](#equipment "Camping Equipment").

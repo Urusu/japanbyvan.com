@@ -21,7 +21,8 @@ html(lang='en')
     link(rel="shortcut icon" type='image/x-icon' href="favicon/favicon.ico")
 
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
-    script(src='js/lightslider.js')
+    script(src='js/lightslider.js')    
+    script(src='js/lightgallery.min.js')
 
 
   body
@@ -50,42 +51,8 @@ html(lang='en')
           include:markdown-it ../data/home/tagline.md
     block body
     include contact.pug
-    script(src='js/lightgallery.min.js')
     script(src='main.js')
-
-    script.
-      $(document).ready(function() {
-        $(".bongogallery").lightSlider({
-          gallery: true,
-          item: 2,
-          loop:true,
-          slideMargin: 10,
-          thumbItem: 7,
-          keyPress: true
-        }); 
-      });
-    script.
-      $(document).ready(function() {
-        $(".hiacegallery").lightSlider({
-          gallery: true,
-          item: 2,
-          loop:true,
-          slideMargin: 10,
-          thumbItem: 9,
-          keyPress: true
-        }); 
-      });
-    script.
-      $(document).ready(function() {
-        $(".equipmentgallery").lightSlider({
-          gallery: true,
-          item: 2,
-          loop:true,
-          slideMargin: 10,
-          thumbItem: 7,
-          keyPress: true
-        }); 
-      });
-  footer.credits
-    include:markdown-it ../data/home/footer.md
+    
+    footer.credits
+      include:markdown-it ../data/home/footer.md
 

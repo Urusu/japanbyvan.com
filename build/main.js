@@ -72,6 +72,37 @@ function broFest(e) {
   }, 20);
 }
 
+document.addEventListener('DOMContentLoaded', function () {
+  $(".bongogallery").lightSlider({
+    gallery: true,
+    item: 2,
+    loop: true,
+    slideMargin: 10,
+    thumbItem: 7,
+    keyPress: true
+  });
+}, false);
+document.addEventListener('DOMContentLoaded', function () {
+  $(".hiacegallery").lightSlider({
+    gallery: true,
+    item: 2,
+    loop: true,
+    slideMargin: 10,
+    thumbItem: 7,
+    keyPress: true
+  });
+}, false);
+document.addEventListener('DOMContentLoaded', function () {
+  $(".equipmentgallery").lightSlider({
+    gallery: true,
+    item: 2,
+    loop: true,
+    slideMargin: 10,
+    thumbItem: 7,
+    keyPress: true
+  });
+}, false);
+
 function broFountain(e) {
   for (let i = 0; i < 3; i++) {
     broFest(e);

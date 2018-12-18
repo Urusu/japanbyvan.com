@@ -1,1 +1,1 @@
-If you have questions or problems while travelling, we’re here to help you
+24/7 support during your trip

@@ -1,2 +1,1 @@
-\- Support in English, German, French and Japanese.  
-\- English contracts
+Multilingual support and English contracts

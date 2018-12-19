@@ -85,6 +85,12 @@ gulp.task('script', ['clean'], () => {
     .pipe(gulp.dest('build'));
 });
 
+gulp.task('docs', ['clean'], () => {
+  return gulp
+    .src('data/**/*.pdf')
+    .pipe(gulp.dest('build'));
+});
+
 gulp.task('lightgallery', ['clean'], () => {
   return gulp
     .src(['src/fonts/**/*', 'src/images/**/*', 'src/js/**/*', 'src/css/**/*'], {base: 'src'})
@@ -112,7 +118,7 @@ gulp.task('script', callback => {
 });*/
 
 
-gulp.task('build', ['clean', 'script', 'css', 'images', 'lightgallery', 'favicon', 'html']);
+gulp.task('build', ['clean', 'script', 'css', 'images', 'lightgallery', 'favicon', 'docs', 'html']);
 
 
 gulp.task('default', ['build']);

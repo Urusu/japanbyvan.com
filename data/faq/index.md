@@ -14,7 +14,7 @@ The maximum amount you’d have to pay in case of a fully self-inflicted acciden
 
 ### What kind of license do I need for driving in Japan?
 
-International Driving Permits **based on the 1949 Geneva Road Convention are required to drive legally in Japan. Belgium, France, Germany, Monaco, Slovenia, Switzerland and Taiwan do not issue permits based on the 1949 Geneva Convention**, but instead have a **separate agreement** that allows drivers from these countries to drive in Japan for up to one year with **an official** Japanese translation of their driver’s license. The translation has to be obtained **before** pick-up.Translations can be obtained from your country **embassy or consulate in Japan** (Duration: about 2 weeks) or from the **Japan Automobile Federation** (JAF) (Duration: about 3-5 working days). (Please see details [here](http://www.jaf.or.jp/e/translation/switch.htm) "JAF".)
+International Driving Permits **based on the 1949 Geneva Road Convention are required to drive legally in Japan. Belgium, France, Germany, Monaco, Slovenia, Switzerland and Taiwan do not issue permits based on the 1949 Geneva Convention**, but instead have a **separate agreement** that allows drivers from these countries to drive in Japan for up to one year with **an official** Japanese translation of their driver’s license. The translation has to be obtained **before** pick-up.Translations can be obtained from your country **embassy or consulate in Japan** (Duration: about 2 weeks) or from the **Japan Automobile Federation** (JAF) (Duration: about 3-5 working days). Please see details on the [official website](http://www.jaf.or.jp/e/translation/switch.htm) of the JAF.
 
 ### How much does Gasoline cost in Japan?
 
@@ -22,11 +22,11 @@ Gas prices vary from JPY 140 to JPY150/L.
 
 ### How much are the Highway fees?
 
-Highway fees vary depending on the area. Highways in major metropolitan areas like Tokyo and Osaka are much more expensive than highways in the countryside. There are extra fees for large suspension bridges connecting Honshu and Shikoku (i.e. Seto-Ohashi bridge). Click [here](https://www2.kumagaku.ac.jp/teacher/~masden/tolls/ "Highway Fees") to see the guide for highway fee calculations in Japan.
+Highway fees vary depending on the area. Highways in major metropolitan areas like Tokyo and Osaka are much more expensive than highways in the countryside. There are extra fees for large suspension bridges connecting Honshu and Shikoku (i.e. Seto-Ohashi bridge). There's a site with a guide for [ highway fee calculations](https://www2.kumagaku.ac.jp/teacher/~masden/tolls/ "Highway Fees") in Japan.
 
 ### What kind of places are suitable for camping in Japan apart from official campsites?
 
-Sleeping in your car is allowed everywhere where it’s legally parked. There are over 1100 Road Stations where you can park and sleep for free.  The official "Michi no eki" [site](https://www.michi-no-eki.jp/about/english) gives you a search engine and plenty of information.
+Sleeping in your car is allowed everywhere where it’s legally parked. There are over 1100 Road Stations where you can park and sleep for free.  The official ["Michi no eki" site](https://www.michi-no-eki.jp/about/english) gives you a search engine and plenty of information.
 
 ### Is there a weight limit for the bed and the roof tent
 

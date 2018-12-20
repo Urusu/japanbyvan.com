@@ -79,7 +79,14 @@ document.addEventListener('DOMContentLoaded', function () {
     loop: true,
     slideMargin: 10,
     thumbItem: 7,
-    keyPress: true
+    keyPress: true,
+    onSliderLoad: function (el) {
+      el.lightGallery({
+        selector: '.bongogallery .lslide',
+        download: false,
+        thumbnail: true
+      });
+    }
   });
 }, false);
 document.addEventListener('DOMContentLoaded', function () {

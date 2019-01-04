@@ -44,7 +44,7 @@ gulp.task('css', ['clean'], () => {
       importer: jsonImporter,
       errLogToConsole: true
     }).on('error', sass.logError))
-    //.pipe(postcss())
+    .pipe(postcss())
     .pipe(gulp.dest('./build/css'));
 });
 

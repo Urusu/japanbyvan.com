@@ -6,6 +6,9 @@ block body
       aside.t-lead
         a(class="button button--booknow" href='#contact') book now!
       include nav.pug
+    aside
+      include vanprofile.pug
+    section.contents
       include services.pug
     aside.intro-container
       .max-width
@@ -15,7 +18,6 @@ block body
           .intro-map
             include ./images/jbv-location.svg
     section.contents
-      include vanprofile.pug
       article.max-width
         include:markdown-it ../data/home/reviews/index.md
         include:markdown-it ../data/home/reviews/review1.md

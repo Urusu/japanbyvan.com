@@ -142,10 +142,7 @@ ul, li {
   text-align: center; }
 
 .van-information-container {
-  border-style: solid;
-  padding: 0.3rem;
-  margin-bottom: 3rem;
-  border-color: var(--background-fill); }
+  margin-bottom: 3rem; }
 
 .van-container {
   width: 100%;

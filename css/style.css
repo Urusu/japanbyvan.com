@@ -21,6 +21,9 @@ html {
   background-color: var(--background); }
   @media (max-width: 40rem) {
     html {
+      font-size: calc(1vw + .7rem); } }
+  @media (max-width: 64rem) {
+    html {
       font-size: calc(1vw + .5rem); } }
 
 body, head {
@@ -89,19 +92,20 @@ ul, li {
 .banner {
   display: flex;
   justify-content: center; }
+  @media (max-width: 40rem) {
+    .banner {
+      margin-top: 2rem; } }
 
 .social-media {
   position: absolute;
+  display: flex;
+  align-items: center;
   top: 2rem;
   right: 2rem; }
-
-.social-media-table td {
-  text-align: center; }
-
-@media all and (max-width: 719px) {
-  .social-media-table td {
-    font-size: 0.8rem;
-    text-align: center; } }
+  .social-media a {
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem; }
 
 .header-image {
   width: 100%;
@@ -117,7 +121,7 @@ ul, li {
   justify-content: space-evenly; }
 
 .service {
-  width: 31%;
+  flex: 0 0 31%;
   margin: 20px 1.15%;
   text-align: center; }
 
@@ -164,6 +168,7 @@ ul, li {
 
 .intro {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem;
@@ -175,6 +180,14 @@ ul, li {
 
 .intro-map {
   width: 30%; }
+
+@media (max-width: 40rem) {
+  .intro-map,
+  .intro-content {
+    text-align: center;
+    flex: 0 0 100%; }
+  .intro-map svg {
+    height: 20rem; } }
 
 .thumbnail {
   width: 23%;
@@ -243,9 +256,7 @@ td {
 
 .header-icon {
   width: 1.2rem;
-  height: auto;
-  margin: 0 1rem;
-  vertical-align: middle; }
+  height: auto; }
 
 .social-media-tagline {
   height: auto;

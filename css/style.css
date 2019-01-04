@@ -202,7 +202,7 @@ ul, li {
   text-align: left; }
 
 .intro-map {
-  width: 30%; }
+  width: auto; }
 
 @media (max-width: 40rem) {
   .intro-map,

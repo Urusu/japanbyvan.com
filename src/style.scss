@@ -184,6 +184,13 @@ ul, li {
   margin-bottom: 3rem;
 }
 
+.van-information-lead-img {
+  overflow: hidden;
+  img {
+    margin: -4rem 0;
+  }
+}
+
 .van-container {
   position: relative;
   height: auto;

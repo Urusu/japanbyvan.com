@@ -14,7 +14,7 @@ $breakpoints: (
 
 :root {
   --red: #f04e45;
-  --coral: #ff8780;
+  --coral: #f8c1ac;
   --black: #212121;
   --white: #fff;
   --turquoise: #CBFBF1;
@@ -25,9 +25,9 @@ $breakpoints: (
   --dark-blueish: #23978F;
 
   --text: var(--black);
-  --interaction: var(--dark-blueish);
+  --interaction: var(--darker-green);
   --background: var(--white);
-  --background-fill: var(--blueish);
+  --background-fill: var(--darker-green);
 }
 html {
   font-size: calc(1vw + .3rem);
@@ -70,6 +70,19 @@ button {
   font-size: 2rem;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
+  background: var(--interaction);
+  color: var(--white);
+  text-decoration: none;
+  padding: .25em .75em;
+  display: inline-block;
+  box-sizing: border-box;
+  &--booknow {
+    margin: 1rem 0;
+    @include bp(mobile) {
+      display: block;
+      width: 100%;
+    }
+  }
 }
 
 svg, img {

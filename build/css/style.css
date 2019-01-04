@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Source+Sans+Pro:400,600");
 :root {
   --red: #f04e45;
-  --coral: #ff8780;
+  --coral: #f8c1ac;
   --black: #212121;
   --white: #fff;
   --turquoise: #CBFBF1;
@@ -11,9 +11,9 @@
   --blueish: #64CDC5;
   --dark-blueish: #23978F;
   --text: var(--black);
-  --interaction: var(--dark-blueish);
+  --interaction: var(--darker-green);
   --background: var(--white);
-  --background-fill: var(--blueish); }
+  --background-fill: var(--darker-green); }
 
 html {
   font-size: calc(1vw + .3rem);
@@ -53,7 +53,19 @@ button {
   text-transform: uppercase;
   font-size: 2rem;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  background: var(--interaction);
+  color: var(--white);
+  text-decoration: none;
+  padding: .25em .75em;
+  display: inline-block;
+  box-sizing: border-box; }
+  .button--booknow {
+    margin: 1rem 0; }
+    @media (max-width: 40rem) {
+      .button--booknow {
+        display: block;
+        width: 100%; } }
 
 svg, img {
   max-width: 100%;

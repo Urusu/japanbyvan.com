@@ -128,14 +128,15 @@ ul, li {
 .service-box {
   width: 100%;
   height: auto;
-  margin: 1rem auto;
+  margin: -2rem auto 1rem;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly; }
+  @media (max-width: 40rem) {
+    .service-box {
+      flex-wrap: wrap; } }
 
 .service {
-  flex: 0 0 31%;
-  margin: 20px 1.15%;
+  flex: 0 0 20%;
   text-align: center; }
 
 .service-image {
@@ -147,23 +148,48 @@ ul, li {
 
 .van-container {
   height: auto;
-  margin: 1rem -1rem;
+  margin: 0 -1rem 1rem;
   display: flex;
   justify-content: space-between;
   overflow: hidden; }
 
+.van-container-title {
+  display: none; }
+
 .van {
   position: relative;
   width: 70%;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-top: -10%;
+  transition: 400ms transform;
+  will-change: transform; }
   .van, .van img {
     display: block; }
+  .van:first-child:hover {
+    transform: translateX(10%); }
+  .van:last-child:hover {
+    transform: translateX(-10%); }
   .van:first-child {
-    margin-left: -20%; }
+    margin-left: -25%; }
+    .van:first-child img {
+      transform: rotateY(-180deg); }
   .van:last-child {
-    margin-right: -20%; }
+    margin-right: -25%; }
+    .van:last-child img {
+      transform: translateY(7%); }
+  .van::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    bottom: 15%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10rem rgba(0, 0, 0, 0.25); }
 
 .van-tag {
+  display: none;
   font-size: 1rem;
   position: absolute;
   background: var(--interaction);

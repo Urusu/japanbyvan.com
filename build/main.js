@@ -84,7 +84,8 @@ document.addEventListener('DOMContentLoaded', function () {
       el.lightGallery({
         selector: '.bongogallery .lslide',
         download: false,
-        thumbnail: true
+        animateThumb: true,
+        showThumbByDefault: true
       });
     }
   });

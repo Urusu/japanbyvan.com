@@ -347,6 +347,11 @@ td {
   width: 50%;
   margin: 2rem auto; }
 
+.about-us-inner img {
+  float: right;
+  width: 10rem;
+  margin-left: 1rem; }
+
 .bro {
   transition: .8s transform ease-in-out;
   position: absolute;

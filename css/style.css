@@ -21,6 +21,9 @@ html {
   background-color: var(--background); }
   @media (max-width: 40rem) {
     html {
+      font-size: calc(1vw + .7rem); } }
+  @media (max-width: 64rem) {
+    html {
       font-size: calc(1vw + .5rem); } }
 
 body, head {

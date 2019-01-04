@@ -19,6 +19,9 @@ html {
   font-size: calc(1vw + .3rem);
   color: var(--text);
   background-color: var(--background); }
+  @media (max-width: 40rem) {
+    html {
+      font-size: calc(1vw + .5rem); } }
 
 body, head {
   font-size: 1.1rem;
@@ -210,7 +213,7 @@ td {
 .contact {
   background: var(--background-fill);
   padding-top: 1rem;
-  width: 100%; }
+  padding-bottom: 1rem; }
   .contact span {
     display: block;
     margin-bottom: 0.5em;

@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Source+Sans+Pro:400,600');
+
+$breakpoints: (
+  mobile: 'max-width: 40rem',
+  tablet: 'max-width: 64rem',
+  desktop: 'min-width: 64.063rem',
+);
+
+@mixin bp($name) {
+  @media (#{map-get($breakpoints, $name)}) {
+    @content
+  }
+}
+
 :root {
   --red: #f04e45;
   --coral: #ff8780;
@@ -20,6 +33,12 @@ html {
   font-size: calc(1vw + .3rem);
   color: var(--text);
   background-color: var(--background);
+  @include bp(mobile){
+    font-size: calc(1vw + .7rem);
+  }
+  @include bp(tablet) {
+    font-size: calc(1vw + .5rem);
+  }
 }
 body, head {
   font-size: 1.1rem;
@@ -119,7 +138,6 @@ ul, li {
     text-align: center;
   }
 }
-
 
 .header-image {
   width: 100%;  
@@ -251,7 +269,7 @@ td {
 .contact {
   background: var(--background-fill);
   padding-top: 1rem;
-  width: 100%;
+  padding-bottom: 1rem;
   
   span {
     display: block;

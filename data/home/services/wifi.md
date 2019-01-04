@@ -1,1 +1,1 @@
-Tablet with 1GB wifi per week included
+Tablet with internet

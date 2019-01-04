@@ -186,7 +186,11 @@ ul, li {
 
 .van-container {
   height: auto;
-  margin: 0 -1rem 1rem;
+  margin: -10vw -1rem 1rem;
+  @include bp(mobile) {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
   display: flex;
   justify-content: space-between;
   overflow: hidden;
@@ -220,7 +224,10 @@ ul, li {
     }
   }
   &:last-child {
-    margin-right: -25%;
+    margin-right: -30%;
+    @include bp(mobile) {
+      margin-right: -25%;
+    }
     img {
       transform: translateY(7%);
     }
@@ -302,6 +309,11 @@ ul, li {
 .thumbnail {
   width: 23%;
   height: auto;
+}
+
+.t-lead {
+  position: relative;
+  z-index: 2;
 }
 
 .t-lead, .t-lead p {

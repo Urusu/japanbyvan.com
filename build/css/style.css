@@ -148,10 +148,14 @@ ul, li {
 
 .van-container {
   height: auto;
-  margin: 0 -1rem 1rem;
+  margin: -10vw -1rem 1rem;
   display: flex;
   justify-content: space-between;
   overflow: hidden; }
+  @media (max-width: 40rem) {
+    .van-container {
+      margin-top: 4rem;
+      margin-bottom: 4rem; } }
 
 .van-container-title {
   display: none; }
@@ -174,7 +178,10 @@ ul, li {
     .van:first-child img {
       transform: rotateY(-180deg); }
   .van:last-child {
-    margin-right: -25%; }
+    margin-right: -30%; }
+    @media (max-width: 40rem) {
+      .van:last-child {
+        margin-right: -25%; } }
     .van:last-child img {
       transform: translateY(7%); }
   .van::after {
@@ -241,6 +248,10 @@ ul, li {
 .thumbnail {
   width: 23%;
   height: auto; }
+
+.t-lead {
+  position: relative;
+  z-index: 2; }
 
 .t-lead, .t-lead p {
   font-size: 1.4rem;

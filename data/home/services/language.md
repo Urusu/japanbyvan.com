@@ -1,1 +1,1 @@
-Multilingual support and English contracts
+Multilingual support

@@ -144,7 +144,6 @@ ul, li {
 .van-information-container {
   border-style: solid;
   padding: 0.3rem;
-  border-radius: 2rem;
   margin-bottom: 3rem;
   border-color: var(--background-fill); }
 
@@ -160,20 +159,17 @@ ul, li {
   width: 45%; }
 
 .van-image {
-  text-align: center;
-  border-radius: 2rem; }
+  text-align: center; }
 
 .van-price {
   background-color: var(--background-fill);
   height: auto;
-  width: 100%;
-  border-radius: 2rem; }
+  width: 100%; }
 
 .van-specs, .equipment-info {
   background-color: var(--background-fill);
   height: auto;
-  width: 100%;
-  border-radius: 2rem; }
+  width: 100%; }
 
 .intro-container {
   background: var(--background-fill); }
@@ -183,8 +179,7 @@ ul, li {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem;
-  border-radius: 2rem; }
+  padding: 1.2rem; }
 
 .intro-content {
   width: 65%;
@@ -263,8 +258,7 @@ td {
   justify-content: center;
   margin: auto;
   align-items: center;
-  border-style: solid;
-  border-radius: 2rem; }
+  border-style: solid; }
 
 .header-icon {
   width: 1.2rem;

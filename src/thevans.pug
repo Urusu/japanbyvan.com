@@ -6,6 +6,8 @@ block body
       include nav.pug
       article
         .van-information-container
+          img(class='van-image', src="./images/thevans/bongo/img/friendee-cutout.png", alt="Mazda Bongo Friendee")
+      
           h2#bongo Mazda Bongo Friendee
             include ../data/thevans/bongo/slider.html
           include:markdown-it ../data/thevans/bongo/index.md
@@ -16,6 +18,8 @@ block body
           .van-specs
             include:markdown-it ../data/thevans/bongo/specs.md
         .van-information-container
+          img(class='van-image', src="./images/thevans/hiace/img/hiace-cutout.png", alt="Toyota HiAce")
+      
           h2#hiace Toyota Hiace
             include ../data/thevans/hiace/slider.html
           include:markdown-it ../data/thevans/hiace/index.md

@@ -314,6 +314,7 @@ ul, li {
 .intro-map {
   flex: 0 0 30%;
   width: 30%;
+  overflow: hidden;
 }
 
 @include bp(mobile) {

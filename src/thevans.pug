@@ -1,42 +1,58 @@
 extends layout
 
 block body
+  .max-width
+    include nav.pug
+
   main
-    section.contents.max-width
-      include nav.pug
+    section.contents
       article
         .van-information-container
-          img(class='van-image', src="./images/thevans/bongo/img/friendee-cutout.png", alt="Mazda Bongo Friendee")
-      
-          h2#bongo Mazda Bongo Friendee
-            include ../data/thevans/bongo/slider.html
-          include:markdown-it ../data/thevans/bongo/index.md
-          h2 Prices
-          .van-price
-            include:markdown-it ../data/thevans/bongo/prices.md
-          h2 Specs
-          .van-specs
-            include:markdown-it ../data/thevans/bongo/specs.md
+          .max-width
+            img(class='van-image', src="./images/thevans/bongo/img/friendee-cutout.png", alt="Mazda Bongo Friendee")
+          
+          .max-width
+            h2#bongo Mazda Bongo Friendee
+          
+          include ../data/thevans/bongo/slider.html
+          
+          .max-width
+            include:markdown-it ../data/thevans/bongo/index.md
+            h2 Prices
+            .van-price
+              include:markdown-it ../data/thevans/bongo/prices.md
+            h2 Specs
+            .van-specs
+              include:markdown-it ../data/thevans/bongo/specs.md
+      article
         .van-information-container
-          img(class='van-image', src="./images/thevans/hiace/img/hiace-cutout.png", alt="Toyota HiAce")
+          .max-width
+            img(class='van-image', src="./images/thevans/hiace/img/hiace-cutout.png", alt="Toyota HiAce")
       
-          h2#hiace Toyota Hiace
-            include ../data/thevans/hiace/slider.html
-          include:markdown-it ../data/thevans/hiace/index.md
-          h2 Prices
-          .van-price
-            include:markdown-it ../data/thevans/hiace/prices.md
-          h2 Specs
-          .van-specs
-            include:markdown-it ../data/thevans/hiace/specs.md
+          .max-width
+            h2#hiace Toyota Hiace
+          include ../data/thevans/hiace/slider.html
+          .max-width
+            include:markdown-it ../data/thevans/hiace/index.md
+            h2 Prices
+            .van-price
+              include:markdown-it ../data/thevans/hiace/prices.md
+            h2 Specs
+            .van-specs
+              include:markdown-it ../data/thevans/hiace/specs.md
+
+      article 
         .van-information-container
-          h2#equipment Equipment Included
-            include ../data/equipment/slider.html
-          .equipment-info
-            include:markdown-it ../data/equipment/index.md
-          h2 Additional Equipment
-          h4 **FEE PER RENTAL PERIOD **
-          .equipment-info
-            include:markdown-it ../data/equipment/additional-equipment.md
+          .max-width
+            h2#equipment Equipment Included
+          include ../data/equipment/slider.html
+          
+          .max-width
+            .equipment-info
+              include:markdown-it ../data/equipment/index.md
+            h2 Additional Equipment
+            h4 **FEE PER RENTAL PERIOD **
+            .equipment-info
+              include:markdown-it ../data/equipment/additional-equipment.md
     //aside
     //  include:markdown-it ../data/home/notes/index.md

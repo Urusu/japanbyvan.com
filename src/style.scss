@@ -120,22 +120,21 @@ ul, li {
 .banner {
   display: flex;
   justify-content: center;
+  @include bp(mobile) {
+    margin-top: 2rem; /// create a little room for the social media icons
+  }
 }
 
 .social-media {
   position: absolute;
+  display: flex;
+  align-items: center;
   top: 2rem;
   right: 2rem;
-}
-
-.social-media-table td {
-  text-align: center
-}
-
-@media all and (max-width: 719px) {
-  .social-media-table td {
-    font-size: 0.8rem;
-    text-align: center;
+  a {
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
   }
 }
 
@@ -155,7 +154,7 @@ ul, li {
 }
 
 .service {
-  width: 31%;
+  flex: 0 0 31%;
   margin: 20px 1.15%;
   text-align: center;
 }
@@ -211,6 +210,7 @@ ul, li {
 
 .intro {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem;
@@ -224,6 +224,19 @@ ul, li {
 
 .intro-map {
   width: 30%;
+}
+
+@include bp(mobile) {
+  .intro-map,
+  .intro-content {
+    text-align: center;
+    flex: 0 0 100%;
+  }
+  .intro-map {
+    svg {
+      height: 20rem;
+    }
+  }
 }
 
 .thumbnail {
@@ -309,8 +322,6 @@ td {
 .header-icon {
   width: 1.2rem;
   height: auto;
-  margin: 0 1rem;
-  vertical-align: middle;
 }
 .social-media-tagline {
   height: auto;

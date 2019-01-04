@@ -33,20 +33,11 @@ html(lang='en')
             a(href="./index.html")
               include jbv-logo.svg
           .social-media
-            table.social-media-table
-              tr
-                td INSTAGRAM:
-                td 
-                  a(href="https://www.instagram.com/japanbyvan")
-                    img(class="header-icon", src="./images/home/icons/svg/instagram.svg", alt="Instagram")
-              tr
-                td FACEBOOK: 
-                td 
-                  a(href="https://www.facebook.com/japanbyvan")
-                    img(class="header-icon", src="./images/home/icons/svg/facebook.svg", alt="Facebook")
-              tr 
-                td PHONE:
-                td +81 (0)80-8149-0487
+            a(href="https://www.instagram.com/japanbyvan" title="Instagram")
+              img(class="header-icon", src="./images/home/icons/svg/instagram.svg", alt="Instagram")
+            a(href="https://www.facebook.com/japanbyvan" title="Facebook")
+              img(class="header-icon", src="./images/home/icons/svg/facebook.svg", alt="Facebook")
+            a(href="tel:+81 (0)80-8149-0487") +81 (0)80-8149-0487
         .t-lead
           include:markdown-it ../data/home/tagline.md
     block body

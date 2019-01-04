@@ -235,7 +235,8 @@ ul, li {
   width: 100%; }
 
 .intro-container {
-  background: var(--background-fill); }
+  background: var(--background-fill);
+  margin-bottom: 3rem; }
 
 .intro {
   display: flex;

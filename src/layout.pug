@@ -6,8 +6,9 @@ html(lang='en')
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
 
-
-    title Campervan and RV rental in Kyoto, Japan | japanbyvan.com
+    title
+      block title 
+        |Campervan and RV rental in Kyoto, Japan
     
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes')
     meta(name='format-detection', content='telephone=no')
@@ -19,11 +20,6 @@ html(lang='en')
     link(rel='stylesheet', href='css/lightslider.css')
 
     link(rel="shortcut icon" type='image/x-icon' href="favicon/favicon.ico")
-
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
-    script(src='js/lightslider.js')    
-    script(src='js/lightgallery.min.js')
-
 
   body
     header.header-image
@@ -42,6 +38,10 @@ html(lang='en')
           include:markdown-it ../data/home/tagline.md
     block body
     include contact.pug
+    
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+    script(src='js/lightslider.js')
+    script(src='js/lightgallery.min.js')
     script(src='main.js')
     
     footer.credits

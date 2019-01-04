@@ -36,13 +36,22 @@ html(lang='en')
         .t-lead
           include:markdown-it ../data/home/tagline.md
     block body
+
     include contact.pug
-    
+
+    article.aboout-us
+      .max-width.about-us-inner
+        h3 Who we are
+        img(class="about-us-img", src="./images/aboutus/img/aboutus.jpg", alt="Lisa &amp; Urs")
+        include:markdown-it ../data/aboutus/index.md
+
+    footer.credits
+      include:markdown-it ../data/home/footer.md
+
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
     script(src='js/lightslider.js')    
     script(src='https://cdn.jsdelivr.net/npm/lightgallery@1.3.2/dist/js/lightgallery.js')
     script(src='https://cdn.jsdelivr.net/npm/lightgallery@1.6.11/modules/lg-thumbnail.js')
     script(src='main.js')
-    footer.credits
-      include:markdown-it ../data/home/footer.md
+
 

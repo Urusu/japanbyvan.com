@@ -54,12 +54,17 @@ button {
   font-size: 2rem;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
-  background: var(--interaction);
-  color: var(--white);
+  color: var(--interaction);
+  background: var(--white);
   text-decoration: none;
   padding: .25em .75em;
   display: inline-block;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: 0.15rem solid var(--black);
+  box-shadow: 0.5rem 0.5rem 0 var(--interaction);
+  transition: 200ms box-shadow; }
+  .button:hover {
+    box-shadow: 0rem 0rem 0 var(--interaction); }
   .button--booknow {
     margin: 1rem 0; }
     @media (max-width: 40rem) {
@@ -89,13 +94,8 @@ ul, li {
   display: none; }
 
 .max-width {
-  width: 40rem;
+  max-width: 40rem;
   margin: 0 auto; }
-
-@media all and (max-width: 719px) {
-  .max-width {
-    width: 100%;
-    margin: 0 auto; } }
 
 .logo-wrap {
   width: 12rem;
@@ -155,8 +155,27 @@ ul, li {
   justify-content: space-between; }
 
 .van {
+  position: relative;
   margin: 5px 1.15%;
-  width: 45%; }
+  width: 45%;
+  overflow: hidden;
+  box-shadow: 0.5rem 0.5rem 0 var(--interaction);
+  transition: 200ms box-shadow; }
+  .van, .van img {
+    display: block; }
+  .van:hover {
+    box-shadow: 0rem 0rem 0 var(--interaction); }
+
+.van-tag {
+  font-size: 1rem;
+  position: absolute;
+  background: var(--interaction);
+  color: var(--white);
+  text-decoration: none;
+  padding: .25em 3.5em;
+  bottom: 0;
+  right: 0;
+  transform: translateX(25%) rotate(-45deg); }
 
 .van-image {
   text-align: center; }
@@ -194,7 +213,7 @@ ul, li {
     text-align: center;
     flex: 0 0 100%; }
   .intro-map svg {
-    height: 20rem; } }
+    max-height: 20rem; } }
 
 .thumbnail {
   width: 23%;
@@ -253,7 +272,7 @@ td {
   margin: 1rem; }
 
 .header-icon-container {
-  width: 40rem;
+  max-width: 40rem;
   display: flex;
   justify-content: center;
   margin: auto;

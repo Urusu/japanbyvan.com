@@ -285,12 +285,14 @@ ul, li {
 }
 
 .intro-content {
-  width: 65%;
   text-align: left;
+  flex: 0 0 70%;
+  width: 70%;
 }
 
 .intro-map {
-  width: auto;
+  flex: 0 0 30%;
+  width: 30%;
 }
 
 @include bp(mobile) {
@@ -298,8 +300,10 @@ ul, li {
   .intro-content {
     text-align: center;
     flex: 0 0 100%;
+    width: 100%;
   }
   .intro-map {
+    width: 100%;
     svg {
       max-height: 20rem;
     }

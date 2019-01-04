@@ -45,6 +45,7 @@ body, head {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 1rem;
   line-height: 1.5;
+  margin: 0;
 }
 footer {
   font-size: 0.5rem;
@@ -183,11 +184,11 @@ ul, li {
 }
 
 .van-container {
-  width: 100%;
   height: auto;
-  margin: 1rem auto;
+  margin: 1rem -1rem;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .van {
@@ -195,15 +196,14 @@ ul, li {
     display: block;
   }
   position: relative;
-  margin: 5px 1.15%;
-  width: 45%;
+  width: 70%;
   overflow: hidden;
-  box-shadow: 0.5rem 0.5rem 0 var(--interaction);
-  transition: 200ms box-shadow; 
-  &:hover {
-    box-shadow: 0rem 0rem 0 var(--interaction);
-
-  } 
+  &:first-child {
+    margin-left: -20%;
+  }
+  &:last-child {
+    margin-right: -20%;
+  }
 }
 
 .van-tag {

@@ -30,7 +30,8 @@ body, head {
   font-size: 1.1rem;
   font-family: 'Source Sans Pro', sans-serif;
   padding: 1rem;
-  line-height: 1.5; }
+  line-height: 1.5;
+  margin: 0; }
 
 footer {
   font-size: 0.5rem;
@@ -145,23 +146,22 @@ ul, li {
   margin-bottom: 3rem; }
 
 .van-container {
-  width: 100%;
   height: auto;
-  margin: 1rem auto;
+  margin: 1rem -1rem;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  overflow: hidden; }
 
 .van {
   position: relative;
-  margin: 5px 1.15%;
-  width: 45%;
-  overflow: hidden;
-  box-shadow: 0.5rem 0.5rem 0 var(--interaction);
-  transition: 200ms box-shadow; }
+  width: 70%;
+  overflow: hidden; }
   .van, .van img {
     display: block; }
-  .van:hover {
-    box-shadow: 0rem 0rem 0 var(--interaction); }
+  .van:first-child {
+    margin-left: -20%; }
+  .van:last-child {
+    margin-right: -20%; }
 
 .van-tag {
   font-size: 1rem;

@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Source+Sans+Pro:400,600');
+
+$breakpoints: (
+  mobile: 'max-width: 40rem',
+  tablet: 'max-width: 64rem',
+  desktop: 'min-width: 64.063rem',
+);
+
+@mixin bp($name) {
+  @media (#{map-get($breakpoints, $name)}) {
+    @content
+  }
+}
+
 :root {
   --red: #f04e45;
-  --coral: #ff8780;
+  --coral: #f8c1ac;
   --black: #212121;
   --white: #fff;
   --turquoise: #CBFBF1;
@@ -12,20 +25,27 @@
   --dark-blueish: #23978F;
 
   --text: var(--black);
-  --interaction: var(--dark-blueish);
+  --interaction: var(--darker-green);
   --background: var(--white);
-  --background-fill: var(--blueish);
+  --background-fill: var(--darker-green);
 }
 html {
   font-size: calc(1vw + .3rem);
   color: var(--text);
   background-color: var(--background);
+  @include bp(mobile){
+    font-size: calc(1vw + .7rem);
+  }
+  @include bp(tablet) {
+    font-size: calc(1vw + .5rem);
+  }
 }
 body, head {
   font-size: 1.1rem;
   font-family: 'Source Sans Pro', sans-serif;
   padding: 1rem;
   line-height: 1.5;
+  margin: 0;
 }
 footer {
   font-size: 0.5rem;
@@ -51,6 +71,28 @@ button {
   font-size: 2rem;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
+  color: var(--interaction);
+  background: var(--white);
+  text-decoration: none;
+  padding: .25em .75em;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 0.15rem solid var(--black);
+  
+  box-shadow: 0.5rem 0.5rem 0 var(--interaction);
+  transition: 200ms box-shadow;
+
+  &:hover {
+    box-shadow: 0rem 0rem 0 var(--interaction);
+  }
+
+  &--booknow {
+    margin: 1rem 0;
+    @include bp(mobile) {
+      display: block;
+      width: 100%;
+    }
+  }
 }
 
 svg, img {
@@ -81,16 +123,8 @@ ul, li {
 }
 
 .max-width {
-  width: 40rem;
+  max-width: 40rem;
   margin: 0 auto;
-}
-
-@media all and (max-width: 719px) {
-  .max-width {
-    width: 100%;
-    margin: 0 auto;
-    //background-color: yellow;
-  }
 }
 
 .logo-wrap {
@@ -99,33 +133,28 @@ ul, li {
 }
 
 .banner {
-  display: -webkit-flex;
   display: flex;
-  justify-content: -webkit-center;
   justify-content: center;
+  @include bp(mobile) {
+    margin-top: 2rem; /// create a little room for the social media icons
+  }
 }
 
 .social-media {
   position: absolute;
+  display: flex;
+  align-items: center;
   top: 2rem;
   right: 2rem;
-}
-
-.social-media-table td {
-  text-align: center
-}
-
-@media all and (max-width: 719px) {
-  .social-media-table td {
-    font-size: 0.8rem;
-    text-align: center;
+  a {
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
   }
 }
 
-
 .header-image {
   width: 100%;  
-  background: var(--background-fill);
   padding-top: 1rem;
   padding-bottom: 0.2rem;
 }
@@ -133,15 +162,16 @@ ul, li {
 .service-box {
   width: 100%;
   height: auto;
-  margin: 1rem auto;
+  margin: -2rem auto 1rem;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  @include bp(mobile) {
+    flex-wrap: wrap;
+  }
 }
 
 .service {
-  width: 31%;
-  margin: 20px 1.15%;
+  flex: 0 0 20%;
   text-align: center;
 }
 
@@ -151,69 +181,159 @@ ul, li {
 }
 
 .van-information-container {
-  border-style: solid;
-  padding: 0.3rem;
-  border-radius: 2rem;
   margin-bottom: 3rem;
-  border-color: var(--background-fill);
 }
 
 .van-container {
-  width: 100%;
+  position: relative;
   height: auto;
-  margin: 1rem auto;
+  margin: -10vw -1rem 1rem;
+  @include bp(mobile) {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .van {
-  margin: 5px 1.15%;
-  width: 45%;
+  &, & img {
+    display: block;
+  }
+  position: relative;
+  width: 70%;
+  overflow: hidden;
+  margin-top: -10%;
+  transition: 400ms transform;
+  will-change: transform;
+  &.van-left:hover {
+    transform: translateX(10%);
+  }
+  &.van-right:hover {
+    transform: translateX(-10%);
+  }
+  &.van-left {
+    margin-left: -25%;
+    img {
+      transform: rotateY(-180deg);
+    }
+  }
+  &.van-right {
+    margin-right: -30%;
+    @include bp(mobile) {
+      margin-right: -25%;
+    }
+    img {
+      transform: translateY(7%);
+    }
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    bottom: 15%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .15);
+    box-shadow: 0 0 10rem rgba(0,0,0,.25);
+  }
+}
+
+.van-captions {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 10%;
+  font-size: 2.5rem;
+  @include bp(mobile) {
+    font-size: 1.5rem;
+    bottom: 10%;
+  }
+  @include bp(tablet) {
+    font-size: 2rem;
+    padding: 0 5%;
+  }
+  text-decoration: underline;
+  pointer-events: none;
+}
+
+.van-tag {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 4rem;
+  right: 50%;
+  text-decoration: underline;
 }
 
 .van-image {
   text-align: center;
-  border-radius: 2rem;
 }
 
 .van-price {
   background-color: var(--background-fill);
   height: auto;
   width: 100%;  
-  border-radius: 2rem;
 }
 
 .van-specs, .equipment-info {
   background-color: var(--background-fill);
   height: auto;
   width: 100%;
-  border-radius: 2rem;
 }
 
 .intro-container {
- background: var(--background-fill);
+  background: var(--background-fill);
+  margin-bottom: 3rem;
 }
 
 .intro {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem;
-  border-radius: 2rem;
 }
 
 .intro-content {
-  width: 65%;
   text-align: left;
+  flex: 0 0 70%;
+  width: 70%;
 }
 
 .intro-map {
+  flex: 0 0 30%;
   width: 30%;
+}
+
+@include bp(mobile) {
+  .intro-map,
+  .intro-content {
+    text-align: center;
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  .intro-map {
+    width: 100%;
+    svg {
+      max-height: 20rem;
+    }
+  }
 }
 
 .thumbnail {
   width: 23%;
   height: auto;
+}
+
+.t-lead {
+  position: relative;
+  z-index: 2;
 }
 
 .t-lead, .t-lead p {
@@ -254,7 +374,7 @@ td {
 .contact {
   background: var(--background-fill);
   padding-top: 1rem;
-  width: 100%;
+  padding-bottom: 1rem;
   
   span {
     display: block;
@@ -282,20 +402,17 @@ td {
 }
 
 .header-icon-container {
-  width: 40rem;
+  max-width: 40rem;
   display: flex;
   justify-content: center;
   margin: auto;
   align-items: center;
   border-style: solid;
-  border-radius: 2rem;
 }
 
 .header-icon {
   width: 1.2rem;
   height: auto;
-  margin: 0 1rem;
-  vertical-align: middle;
 }
 .social-media-tagline {
   height: auto;

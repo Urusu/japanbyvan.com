@@ -1,1 +1,1 @@
-24/7 support during your trip
+24/7 support

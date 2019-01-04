@@ -4,9 +4,13 @@ block body
   main
     section.contents.max-width
       aside.t-lead
-        a(class="button" href='#contact') book now!
-      include nav.pug
+        a(class="button button--booknow" href='#contact') book now!
+    aside
+      include vanprofile.pug
+    section.contents
       include services.pug
+    .max-width
+      include nav.pug
     aside.intro-container
       .max-width
         .intro
@@ -14,9 +18,9 @@ block body
             include:markdown-it ../data/home/intro.md
           .intro-map
             include ./images/jbv-location.svg
-    section.contents.max-width
-      include vanprofile.pug
-      article
+
+    section.contents
+      article.max-width
         include:markdown-it ../data/home/reviews/index.md
         include:markdown-it ../data/home/reviews/review1.md
         include:markdown-it ../data/home/reviews/review2.md

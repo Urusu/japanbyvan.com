@@ -1,1 +1,1 @@
-CAMPERVAN RENTAL IN KYOTO, JAPAN
+Campervan Rental in Kyoto, Japan

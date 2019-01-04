@@ -224,15 +224,14 @@ ul, li {
 .van-image {
   text-align: center; }
 
-.van-price {
-  background-color: var(--background-fill);
-  height: auto;
-  width: 100%; }
-
-.van-specs, .equipment-info {
-  background-color: var(--background-fill);
-  height: auto;
-  width: 100%; }
+.van-price, .van-specs, .equipment-info {
+  background: var(--white);
+  text-decoration: none;
+  padding: .25em .75em;
+  box-sizing: border-box;
+  border: 0.15rem solid var(--black);
+  margin-bottom: 2rem;
+  box-shadow: 0.5rem 0.5rem 0 var(--interaction); }
 
 .intro-container {
   background: var(--background-fill);

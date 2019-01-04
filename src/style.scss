@@ -453,6 +453,12 @@ td {
   }
 }
 
+@include bp(mobile) {
+  .lg-thumb-item {
+    display: none;
+  }
+}
+
 // emoji clicker
 
 

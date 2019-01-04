@@ -426,10 +426,25 @@ td {
   margin: 2rem auto;
 }
 
+.about-us-inner {
+  position: relative;
+}
 .about-us-inner img {
   float: right;
   width: 10rem;
   margin-left: 1rem;
+}
+.about-us-inner .stamp {
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  right: -3rem; bottom: 2rem;
+  transform: rotate(-18deg);
+  z-index: -1;
+  opacity: .7;
+  svg path {
+    fill: var(--interaction);
+  }
 }
 
 // emoji clicker

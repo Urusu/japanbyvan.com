@@ -1,1 +1,1 @@
-24/7 support
+24/7 assistance

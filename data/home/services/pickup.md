@@ -1,1 +1,1 @@
-Free Pick-up/drop-off
+Flexible Pick-up/drop-off

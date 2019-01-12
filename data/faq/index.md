@@ -35,10 +35,3 @@ Sleeping in your car is allowed everywhere where it’s legally parked. There ar
 ### How many free kilometers are included?
 
 There ist no limit. You can drive as far as you like within Japan.
-
-### How much do I have to pay if I cancel my reservation?
-
-- More than 1 month in advance: 0% of total price
-- 1 month in advance: 25% of total price
-- 1 week in advance: 50% of total price
-- 3 Days in advance: 100% of total price

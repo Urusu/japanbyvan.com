@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
       el.lightGallery({
         selector: '.bongogallery .lslide',
         download: false,
-        animateThumb: false
+        animateThumb: true
       });
     }
   });
@@ -104,7 +104,14 @@ document.addEventListener('DOMContentLoaded', function() {
     loop:true,
     slideMargin: 10,
     thumbItem: 7,
-    keyPress: true
+    keyPress: true,
+    onSliderLoad: function(el) {
+      el.lightGallery({
+        selector: '.hiacegallery .lslide',
+        download: false,
+        animateThumb: true
+      });
+    }
   });
 }, false);
 
@@ -115,7 +122,14 @@ document.addEventListener('DOMContentLoaded', function() {
     loop:true,
     slideMargin: 10,
     thumbItem: 7,
-    keyPress: true
+    keyPress: true,
+    onSliderLoad: function(el) {
+      el.lightGallery({
+        selector: '.equipmentgallery .lslide',
+        download: false,
+        animateThumb: true
+      });
+    }
   });
 }, false);
 

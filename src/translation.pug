@@ -1,0 +1,13 @@
+extends layout
+block body
+    .max-width
+        include nav.pug
+    main
+        section.contents
+            article
+                .license-information.max-width
+                    include:markdown-it ../data/translation/index.md
+                .license-price.max-width
+                    p PRICES
+                .license-policy.max-width
+                    p POLICY

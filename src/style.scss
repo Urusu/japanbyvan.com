@@ -164,14 +164,14 @@ ul, li {
   height: auto;
   margin: -2rem auto 1rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   @include bp(mobile) {
     flex-wrap: wrap;
   }
 }
 
 .service {
-  flex: 0 0 20%;
+  flex: 0 0 13%;
   text-align: center;
 }
 

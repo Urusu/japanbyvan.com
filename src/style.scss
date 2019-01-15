@@ -136,7 +136,7 @@ ul, li {
   display: flex;
   justify-content: center;
   @include bp(mobile) {
-    margin-top: 2rem; /// create a little room for the social media icons
+    margin-top: 3.5rem; /// create a little room for the social media icons
   }
 }
 
@@ -157,6 +157,9 @@ ul, li {
   width: 100%;  
   padding-top: 1rem;
   padding-bottom: 0.2rem;
+  @include bp(mobile) {
+    margin-bottom: 1rem;
+  }
 }
 
 .service-box {

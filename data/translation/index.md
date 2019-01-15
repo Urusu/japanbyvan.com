@@ -8,4 +8,4 @@ Or...
 **We can do this for you!**
 
 If you rent with us or just want to have the translation done through us, we can help you out.
-We just need a copy of your drivers license and we do the rest.
+We just need to have a copy of your drivers license and we do the rest. For our 

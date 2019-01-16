@@ -14,7 +14,7 @@ The maximum amount you’d have to pay in case of a fully self-inflicted acciden
 
 ### What kind of license do I need for driving in Japan?
 
-International Driving Permits **based on the 1949 Geneva Road Convention are required to drive legally in Japan. Belgium, France, Germany, Monaco, Slovenia, Switzerland and Taiwan do not issue permits based on the 1949 Geneva Convention**, but instead have a **separate agreement** that allows drivers from these countries to drive in Japan for up to one year with **an official** Japanese translation of their driver’s license. The translation has to be obtained **before** pick-up.Translations can be obtained from your country **embassy or consulate in Japan** (Duration: about 2 weeks) or from the **Japan Automobile Federation** (JAF) (Duration: about 3-5 working days). Please see details on the [official website](http://www.jaf.or.jp/e/translation/switch.htm) of the JAF.
+International Driving Permits **based on the 1949 Geneva Road Convention are required to drive legally in Japan. Belgium, France, Germany, Monaco, Slovenia, Switzerland and Taiwan do not issue permits based on the 1949 Geneva Convention**, but instead have a **separate agreement** that allows drivers from these countries to drive in Japan for up to one year with **an official** Japanese translation of their driver’s license. The translation has to be obtained **before** pick-up.Translations can be obtained from your country **embassy or consulate in Japan** (Duration: about 2 weeks) or from the **Japan Automobile Federation** (JAF) (Duration: Usually on the same day). Please see details on the [official website](http://www.jaf.or.jp/e/translation/switch.htm) of the JAF.
 
 ### How much does Gasoline cost in Japan?
 

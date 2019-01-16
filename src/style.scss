@@ -176,11 +176,17 @@ ul, li {
 .service {
   flex: 0 0 13%;
   text-align: center;
+  @include bp(mobile){
+    font-size: 0.9rem;
+  }
 }
 
 .service-image {
   height: 3.7em;
   text-align: center;
+  @include bp(mobile){
+    height: 3rem;
+  }
 }
 
 .van-information-container {

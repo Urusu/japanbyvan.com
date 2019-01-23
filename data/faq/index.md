@@ -6,7 +6,7 @@ Our office is located in Otsu City, 10minutes by train from Kyoto station. We ar
 
 ### Why is a security deposit required? What kind of Insurance is included in the rental fee?
 
-Our vans are fully insured by a separate insurance company with a deductible of 100,000 JPY. In the event of an self-inflicted accident the applicable excess fee for the insurance needed to be paid will be deducted from your Security Deposit. Check out our [Terms and Conditions](./faq/Terms-and-Conditions-ENG-v1.1.pdf).
+Our vans are fully insured by a separate insurance company with a deductible of 100,000 JPY. In the event of an self-inflicted accident the applicable excess fee for the insurance needed to be paid will be deducted from your Security Deposit. Check out our [Terms and Conditions](./faq/Terms-and-Conditions-ENG-v1.2.pdf).
 
 ### What is the maximum amount I’d have to pay in case of an accident?
 

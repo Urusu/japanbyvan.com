@@ -1,1 +1,1 @@
-Flexible pick-up/drop-off
+Handover in Kyoto/Osaka area

@@ -32,7 +32,7 @@ gulp.task('clean', () => {
 
 gulp.task('css', ['clean'], () => {
   const plugins = [
-    autoprefixer({browsers: ['last 2 versions']}),
+    autoprefixer({overrideBrowserslist: ['last 2 versions']}),
     cssnano()
   ];
 

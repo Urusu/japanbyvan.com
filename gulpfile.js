@@ -30,7 +30,7 @@ gulp.task('clean', () => {
   return del('./build/');
 });
 
-gulp.task('css', ['clean'], () => {
+gulp.task('css', () => {
   const plugins = [
     autoprefixer({overrideBrowserslist: ['last 2 versions']}),
     cssnano()
@@ -48,7 +48,7 @@ gulp.task('css', ['clean'], () => {
     .pipe(gulp.dest('./build/css'));
 });
 
-gulp.task('html', ['clean', 'images'], () => {
+gulp.task('html', () => {
   return gulp.src('./src/*.pug')
     .pipe( data({
       images: images
@@ -61,7 +61,7 @@ gulp.task('css:watch', () => {
   gulp.watch('./src/**/*.scss', ['css']);
 });
 
-gulp.task('images', ['clean'], () => {
+gulp.task('images', (done) => {
   images = [];
   gulp.src('./data/**/*.{jpg,png,svg}')
     /**.pipe(tap((file) => {
@@ -76,28 +76,29 @@ gulp.task('images', ['clean'], () => {
     .pipe(imagemin())
     **/
     .pipe(gulp.dest('./build/images/'))
+    done();
 });
 
-gulp.task('script', ['clean'], () => {
+gulp.task('script', () => {
   return gulp
     .src('src/*.js')
     .pipe(babel())
     .pipe(gulp.dest('build'));
 });
 
-gulp.task('docs', ['clean'], () => {
+gulp.task('docs', () => {
   return gulp
     .src('data/**/*.pdf')
     .pipe(gulp.dest('build'));
 });
 
-gulp.task('lightgallery', ['clean'], () => {
+gulp.task('lightgallery', () => {
   return gulp
     .src(['src/fonts/**/*', 'src/images/**/*', 'src/js/**/*', 'src/css/**/*'], {base: 'src'})
     .pipe(gulp.dest('build'));
 });
 
-gulp.task('favicon', ['clean'], () => {
+gulp.task('favicon', () => {
   return gulp
     .src(['src/favicon/**/*'], {base: 'src'})
     .pipe(gulp.dest('build'));
@@ -118,7 +119,7 @@ gulp.task('script', callback => {
 });*/
 
 
-gulp.task('build', ['clean', 'script', 'css', 'images', 'lightgallery', 'favicon', 'docs', 'html']);
+gulp.task('build', gulp.series('clean', gulp.parallel('script', 'css', 'images', 'lightgallery', 'favicon', 'docs'), gulp.series('html')));
 
 
-gulp.task('default', ['build']);
+gulp.task('default', gulp.series('build'));

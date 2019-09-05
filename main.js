@@ -107,6 +107,23 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 }, false);
 document.addEventListener('DOMContentLoaded', function () {
+  $(".hiacehiroofgallery").lightSlider({
+    gallery: true,
+    item: 2,
+    loop: true,
+    slideMargin: 10,
+    thumbItem: 7,
+    keyPress: true,
+    onSliderLoad: function (el) {
+      el.lightGallery({
+        selector: '.hiacehiroofgallery .lslide',
+        download: false,
+        animateThumb: true
+      });
+    }
+  });
+}, false);
+document.addEventListener('DOMContentLoaded', function () {
   $(".equipmentgallery").lightSlider({
     gallery: true,
     item: 2,

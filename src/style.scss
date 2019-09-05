@@ -268,6 +268,36 @@ ul, li {
   }
 }
 
+.van-single {
+  &, & img {
+    display: block;
+    margin-top: -5rem;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 23rem;
+    margin-bottom: 4rem;
+  }
+  position: relative;
+  width: 100%;
+  transition: 400ms transform;
+  will-change: transform;
+  &:hover {
+    transform: translateX(-10%);
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    width: 69%;
+    height: 10%;
+    left: 6%;
+    bottom: -3%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .15);
+    box-shadow: 0 0 10rem rgba(0,0,0,.25);
+  }
+}
+
 .van-captions {
   position: absolute;
   bottom: 20%;
@@ -300,6 +330,11 @@ ul, li {
 
 .van-image {
   text-align: center;
+}
+
+.van-image-single {
+  text-align: center;
+  height: 75%;
 }
 
 .van-price, .van-specs, .equipment-info {

@@ -5,7 +5,7 @@
 | - Seating capacity: 3 persons | - Doors number: 4 | 
 | - Transmission: Automatic | - Sink
 | - Drive: Rear-wheel 2WD | - Dual battery system |
-| - Fuel type: Unleaded regular gasoline | - Compressor fridge
-| - Roof ventilator | - Parking heater (Webasto)
-| - 100V Inverter (350W) | - External hookup for charging the batteries
-| - Dimensions (LxWxH): 4690mm x 1.690mm x 1.960mm
+| - Fuel type: Unleaded regular gasoline | - External hookup for charging the batteries |
+| - Roof ventilator | - Parking heater |
+| - 100V Inverter (350W) | - Compressor fridge |
+| - Dimensions (LxWxH): 4690mm x 1.690mm x 1.960mm |

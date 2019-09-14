@@ -1,1 +1,1 @@
-Handover in Kyoto/Osaka area
+Handover in Otsu or Kyoto city

@@ -1,7 +1,7 @@
 | | |
 | --- | --- |
 | - Built: 1998 | - Engine: 2.5L-4 cylinder |
-| - Curb vehicle weight: 1980kg | - Power (KW): 133 PS (98) |
+| - Curb vehicle weight: 1980kg | - Power (KW): 120 PS (88 KW) |
 | - Seating capacity: 3 persons | - Doors number: 4 | 
 | - Transmission: Automatic | - Sink
 | - Drive: Rear-wheel 2WD | - Dual battery system |

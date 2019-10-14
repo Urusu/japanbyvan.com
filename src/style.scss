@@ -222,6 +222,9 @@ ul, li {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  & + & {
+    margin-top: 0;
+  }
 }
 
 .van {

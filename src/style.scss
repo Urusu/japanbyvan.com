@@ -216,14 +216,17 @@ ul, li {
   height: auto;
   margin: -10vw -1rem 1rem;
   @include bp(mobile) {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
   display: flex;
   justify-content: space-between;
   overflow: hidden;
   & + & {
-    margin-top: 0; //distance vans
+    margin-top: -6rem; //distance vans
+    @include bp(mobile) {
+      margin-top: -3rem;
+    }
   }
 }
 
@@ -275,13 +278,15 @@ ul, li {
 .van-single {
   &, & img {
     display: block;
-    margin-top: -5rem;
-    margin-bottom: 4rem;
+    margin-top: -3rem;
+    margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     height: auto;
-    margin-bottom: 4rem;
+    @include bp(mobile) {
+      margin-top: -1rem;
+    }
   }
   position: relative;
   width: 100%;
@@ -296,11 +301,14 @@ ul, li {
     width: 69%;
     height: 10%;
     left: 16%;
-    bottom: -3%;
+    bottom: 12%;
     border-radius: 50%;
     background: rgba(0, 0, 0, .15);
     box-shadow: 0 0 10rem rgba(0,0,0,.25);
     pointer-events: none;
+    @include bp(mobile) {
+      bottom: 5%;
+    }
   }
 }
 
@@ -324,6 +332,14 @@ ul, li {
   }
   text-decoration: underline;
   pointer-events: none;
+
+  &--single {
+    bottom:21%;
+    justify-content: center;
+    @include bp(mobile) {
+            bottom: 9%;
+    }
+  }
 }
 
 .van-tag {

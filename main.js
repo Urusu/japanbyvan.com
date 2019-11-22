@@ -141,6 +141,17 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 }, false);
 
+function initMap() {
+  var depot = {
+    lat: 34.747572,
+    lng: 135.509663
+  };
+  var map = new google.maps.Map(document.getElementsByClassName('map'), {
+    zoom: 4,
+    center: depot
+  });
+}
+
 function broFountain(e) {
   for (let i = 0; i < 3; i++) {
     broFest(e);

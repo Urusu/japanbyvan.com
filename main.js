@@ -146,13 +146,13 @@ function initMap() {
     lat: 34.747572,
     lng: 135.509663
   };
-  var test = new google.maps.Map(document.getElementById('map'), {
-    zoom: 4,
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 14,
     center: depot
   });
   var marker = new google.maps.Marker({
     position: depot,
-    map: test
+    map: map
   });
 }
 

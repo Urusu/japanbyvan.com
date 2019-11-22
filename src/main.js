@@ -154,10 +154,12 @@ document.addEventListener('DOMContentLoaded', function() {
 function initMap(){
   var depot = {lat: 34.747572, lng: 135.509663};
 
-  var map = new google.maps.Map(document.getElementsByClassName('map'), {
+  var test = new google.maps.Map(document.getElementById('map'), {
     zoom: 4,
     center: depot
   });
+  var marker = new google.maps.Marker({position: depot, map: test});
+
 
 }
 

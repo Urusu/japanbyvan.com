@@ -1,0 +1,10 @@
+extends layout
+block body
+  .max-width
+      include nav.pug
+
+  main
+    section.contents.max-width
+      article
+        include:markdown-it ../data/access/index.md
+        .map

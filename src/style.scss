@@ -546,6 +546,13 @@ td {
   }
 }
 
+.map {
+  width: auto;
+  height: 10rem;
+  background-color: var(--darker-green);
+  margin-bottom: 5rem;
+}
+
 @include bp(mobile) {
   .lg-thumb-item {
     display: none;

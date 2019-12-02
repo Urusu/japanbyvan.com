@@ -2,7 +2,7 @@
 
 ### Where can I pick up/ drop off the van?
 
-Our office is located in Otsu City, 10minutes by train from Kyoto station. We arrange pick up and drop off individually depending on your schedule and needs, however we always offer free pick up and drop off within Otsu and Kyoto city. Please contact us beforehand if you'd like to pick up the van in another city (additional charge depending on the distance to our office).
+Our office is located in Osaka City, 3 minutes by train from Shin-Osaka station which is the main transport hub in Osaka city (Shinkansen, JR, airport express or subway train). Please check out our [access page](./access.html) or contact us for directions.
 
 ### Why is a security deposit required? What kind of Insurance is included in the rental fee?
 

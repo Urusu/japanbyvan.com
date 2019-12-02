@@ -1,1 +1,0 @@
-Handover in Otsu or Kyoto city

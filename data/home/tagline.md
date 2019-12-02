@@ -1,1 +1,1 @@
-Campervan Rental in Kyoto, Japan
+Campervan Rental in Osaka, Japan

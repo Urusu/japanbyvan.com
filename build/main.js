@@ -151,10 +151,9 @@ function initMap() {
     center: depot
   });
   var marker = new google.maps.Marker({
-    position: depot,
     map: map,
     animation: google.maps.Animation.DROP,
-    title: "JapanByVan"
+    position: depot
   });
 }
 

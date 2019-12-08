@@ -7,6 +7,6 @@
 | - Portable LED light | - First aid kit |
 | - Leisure Sheet | - Fridge- Freezer
 | - Mattress | - Pillows and Sleeping bags |
-| - Blanket | - Winter tires (Nov.-April) |
+| - Blanket | - Winter tires (Dec.-March) |
 | - Tablet with free Wifi (1GB/Week) | |
 |and Navigation system in english and japanese

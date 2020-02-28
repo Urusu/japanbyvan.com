@@ -16,6 +16,14 @@ aside.contact#contact
         label.contact__date
           span Drop off [Date]
           input(type="date", name="to")
+      label.contact__field
+        span Preferred van
+        select(name="vans")
+          option(value="Nothing chosen", selected) Please select your preferred van
+          option(value="Any van is fine") Any van is fine
+          option(value="Bongo Friendee") Bongo Friendee
+          option(value="Toyota Tokushi") Toyota Tokushi
+          option(value="Toyota Hiroshi") Toyota Hiroshi
       label.contact__message
         span Your message*
         textarea(name="message", cols="30", rows="10", required)

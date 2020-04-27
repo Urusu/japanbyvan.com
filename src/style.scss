@@ -248,7 +248,7 @@ ul, li {
     display: block;
   }
   position: relative;
-  width: 70%;
+  width: 58%;
   overflow: hidden;
   margin-top: -10%;
   transition: 400ms transform;
@@ -260,19 +260,22 @@ ul, li {
     transform: translateX(-10%);
   }
   &.van-left {
-    margin-left: -25%;
+    margin-left: -13%;
+    margin-top: -8%;
     img {
       transform: rotateY(-180deg);
     }
   }
   &.van-right {
-    margin-right: -30%;
-    @include bp(mobile) {
-      margin-right: -25%;
-    }
+    margin-right: -15%;
+    margin-top: -6%;
     img {
-      transform: translateY(7%);
+      transform: rotateY(-180deg);
     }
+    @include bp(mobile) {
+      margin-right: -14%;
+    }
+    
   }
   &::after {
     content: '';
@@ -280,7 +283,7 @@ ul, li {
     width: 80%;
     height: 10%;
     left: 10%;
-    bottom: 15%;
+    bottom: 13%;
     border-radius: 50%;
     background: rgba(0, 0, 0, .15);
     box-shadow: 0 0 10rem rgba(0,0,0,.25);
@@ -291,11 +294,11 @@ ul, li {
 .van-single {
   &, & img {
     display: block;
-    margin-top: -3rem;
+    margin-top: -2rem;
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 76%;
     height: auto;
     @include bp(mobile) {
       margin-top: -1rem;
@@ -314,7 +317,7 @@ ul, li {
     width: 69%;
     height: 10%;
     left: 16%;
-    bottom: 12%;
+    bottom: 13%;
     border-radius: 50%;
     background: rgba(0, 0, 0, .15);
     box-shadow: 0 0 10rem rgba(0,0,0,.25);
@@ -367,10 +370,13 @@ ul, li {
   text-align: center;
 }
 
+.van-image-goya {
+  text-align: center;
+  transform: rotateY(-180deg);
+}
+
 .van-image-hiroof {
   text-align: center;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .van-image-single {
@@ -574,6 +580,22 @@ td {
 
 .aboout-us {
   overflow: hidden;
+}
+
+.coming-soon {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: var(--interaction);
+  background: var(--white);
+  text-decoration: none;
+  padding: .25em .75em;
+  display: block;
+  box-sizing: border-box;
+  border: 0.15rem solid var(--black);
+  
+  box-shadow: 0.5rem 0.5rem 0 var(--interaction);
 }
 
 // emoji clicker

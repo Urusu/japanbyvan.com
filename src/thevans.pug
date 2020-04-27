@@ -6,24 +6,7 @@ block body
 
   main
     section.contents
-      article
-        .van-information-container
-          .max-width.van-information-lead-img
-            img(class='van-image', src="./images/thevans/bongo/img/friendee-cutout.png", alt="Mazda Bongo Friendee")
-          
-          .max-width
-            h2#bongo Bongo
-          
-          include ../data/thevans/bongo/slider.html
-          
-          .max-width
-            include:markdown-it ../data/thevans/bongo/index.md
-            h2 Prices
-            .van-price
-              include:markdown-it ../data/thevans/bongo/prices.md
-            h2 Specs
-            .van-specs
-              include:markdown-it ../data/thevans/bongo/specs.md
+      
       article
         .van-information-container
           .max-width.van-information-lead-img
@@ -58,6 +41,15 @@ block body
             .van-specs
               include:markdown-it ../data/thevans/hiacehiroof/specs.md
 
+      article
+        .van-information-container
+          .max-width
+            h2.coming-soon#goya Goya is coming soon in June 2020!
+          .max-width.van-information-lead-img
+            img(class='van-image-goya', src="./images/thevans/goya/img/goya-cutout.png", alt="Toyota Hiace Goya")
+          
+          
+             
       article 
         .van-information-container
           .max-width

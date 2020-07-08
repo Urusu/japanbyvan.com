@@ -5,4 +5,4 @@
 - JPY 12'000 per license including shipping for **non-rental** customers.
 (+ JPY 4'000 per additional license)
 
-Drop us a message below and we get in contact with you!
+Drop us a message below and we get in touch with you within 24 hours.

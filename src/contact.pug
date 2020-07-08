@@ -1,6 +1,10 @@
 aside.contact#contact
   .max-width
     h3.contact__title Make an inquiry or ask us anything
+    ul 
+      li We reply to all inquiries within 24 hours
+      li If you don't receive a response, please try again and double-check your e-mail address and spam folder
+      li You can also contact us directly at + 81 80 8149 0487 or contact@japanbyvan.com
     form.form(action="https://formspree.io/contact@japanbyvan.com", method="post")
       p *Required fields
       label.contact__field
@@ -19,14 +23,14 @@ aside.contact#contact
       label.contact__field
         span Preferred van
         select(name="vans")
-          option(value="Nothing chosen", selected) Please select your preferred van
+          option(value="Nothing chosen", selected) Select preferred van
           option(value="Any van is fine") Any van is fine
           option(value="Toyota Tokushi") Toyota Tokushi
-          option(value="Toyota Hiroshi") Toyota Hiroshi
+          option(value="Toyota Hiroshi or Goya") Toyota Hiroshi or Goya
       label.contact__field
-        span Drivers license issued country
+        span Drivers License Issuing Country
         select(name="country")
-          option(value="nothing selected", selected) Please select the country
+          option(value="nothing selected", selected) Select country
           option(value="Afganistan") Afghanistan
           option(value="Albania") Albania
           option(value="Algeria") Algeria

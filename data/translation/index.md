@@ -9,4 +9,4 @@ Translations can be obtained from your country's embassy or consulate in Japan o
 Or...
 **We can do it for you!**
 
-It doesn't matter whether you book with us or if you just need the translation. We can help you out!
+It doesn't matter whether you book with us or if you just need the translation. We are happy to assist you.

@@ -1,3 +1,6 @@
->We’re very glad to have met Lisa and Urs, they are great people! They were flexible with pick-up time and location, helped us plan our trip and had some very helpful recommendations. Plus, their van is better equipped than many rental apartments so we had absolutely nothing to worry about. Thank you guys so much – and see you next time!
+>We had a wonderful 10 days road trip with the help of Lisa and Urs. They are very thoughtful with all the details of the camping needs all sorted out. All you need is park, turn off the engine and enjoy, buy ingredients to make a nice meal. Everything we need for the camp is provided. All the camping equipment are good quality and easy to use.
+They recommended very good campsites along our route and the views were amazing.
+Fuzz free dealing, easy to communicate with.
+Book early!!
 
-*Alina & Alex / Germany*
+*William / Singapore*

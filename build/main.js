@@ -73,7 +73,7 @@ function broFest(e) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  $(".bongogallery").lightSlider({
+  $(".goyagallery").lightSlider({
     gallery: true,
     item: 2,
     loop: true,
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
     keyPress: true,
     onSliderLoad: function (el) {
       el.lightGallery({
-        selector: '.bongogallery .lslide',
+        selector: '.goyagallery .lslide',
         download: false,
         animateThumb: true
       });

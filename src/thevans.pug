@@ -43,13 +43,20 @@ block body
 
       article
         .van-information-container
-          .max-width
-            h2.coming-soon#goya Goya is coming soon in June 2020!
           .max-width.van-information-lead-img
             img(class='van-image-goya', src="./images/thevans/goya/img/goya-cutout.png", alt="Toyota Hiace Goya")
-          
-          
-             
+        
+          .max-width
+            h2#goya Goya
+          include ../data/thevans/goya/slider.html
+          .max-width
+            include:markdown-it ../data/thevans/goya/index.md
+            h2 Prices
+            .van-price
+              include:markdown-it ../data/thevans/goya/prices.md
+            h2 Specs
+            .van-specs
+              include:markdown-it ../data/thevans/goya/specs.md     
       article 
         .van-information-container
           .max-width

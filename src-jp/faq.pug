@@ -1,0 +1,9 @@
+extends layout
+block body
+  main
+    section.contents.max-width
+      include nav.pug
+      article
+        include:markdown-it ../data-jp/faq/index.md
+        #cancellation
+        include:markdown-it ../data-jp/faq/cancellation.md

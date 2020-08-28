@@ -26,7 +26,7 @@ html(lang=lng)
           .logo-wrap
             span.is-hidden Japan By Van
             a(href="./index.html")
-              include jbv-logo.svg
+              include ../src/jbv-logo.svg
           .social-media
             a(href="https://www.instagram.com/japanbyvan" title="Instagram")
               img(class="header-icon", src="./images/home/icons/svg/instagram.svg", alt="Instagram")
@@ -34,7 +34,7 @@ html(lang=lng)
               img(class="header-icon", src="./images/home/icons/svg/facebook.svg", alt="Facebook")
             a(href="tel:+81 (0)80-8149-0487") +81 (0)80-8149-0487
         .t-lead
-          include:markdown-it ../data/home/tagline.md
+          include:markdown-it ../data-jp/home/tagline.md
     block body
 
     include contact.pug
@@ -43,12 +43,12 @@ html(lang=lng)
       .max-width.about-us-inner
         h3 Who we are
         img(class="about-us-img", src="./images/aboutus/img/aboutus.jpg", alt="Lisa &amp; Urs")
-        include:markdown-it ../data/aboutus/index.md
+        include:markdown-it ../data-jp/aboutus/index.md
         .stamp
-          include jbv-logo.svg
+          include ../src/jbv-logo.svg
 
     footer.credits
-      include:markdown-it ../data/home/footer.md
+      include:markdown-it ../data-jp/home/footer.md
 
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
     script(src='js/lightslider.js')    

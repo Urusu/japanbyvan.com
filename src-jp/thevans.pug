@@ -1,0 +1,74 @@
+extends layout
+
+block body
+  .max-width
+    include nav.pug
+
+  main
+    section.contents
+      
+      article
+        .van-information-container
+          .max-width.van-information-lead-img
+            img(class='van-image', src="./images/thevans/hiace/img/hiace-cutout.png", alt="Toyota Hiace Tokushi")
+      
+          .max-width
+            h2#hiace Tokushi
+          include ../data/thevans/hiace/slider.html
+          .max-width
+            include:markdown-it ../data-jp/thevans/hiace/index.md
+            h2 Prices
+            .van-price
+              include:markdown-it ../data-jp/thevans/hiace/prices.md
+            h2 Specs
+            .van-specs
+              include:markdown-it ../data-jp/thevans/hiace/specs.md
+
+      article
+        .van-information-container
+          .max-width.van-information-lead-img
+            img(class='van-image-hiroof', src="./images/thevans/hiacehiroof/img/hiacehiroof-cutout.png", alt="Toyota Hiace High Roof Hiroshi")
+      
+          .max-width
+            h2#hiacehiroof Hiroshi
+          include ../data/thevans/hiacehiroof/slider.html
+          .max-width
+            include:markdown-it ../data-jp/thevans/hiacehiroof/index.md
+            h2 Prices
+            .van-price
+              include:markdown-it ../data-jp/thevans/hiacehiroof/prices.md
+            h2 Specs
+            .van-specs
+              include:markdown-it ../data-jp/thevans/hiacehiroof/specs.md
+
+      article
+        .van-information-container
+          .max-width.van-information-lead-img
+            img(class='van-image-goya', src="./images/thevans/goya/img/goya-cutout.png", alt="Toyota Hiace Goya")
+        
+          .max-width
+            h2#goya Goya
+          include ../data/thevans/goya/slider.html
+          .max-width
+            include:markdown-it ../data-jp/thevans/goya/index.md
+            h2 Prices
+            .van-price
+              include:markdown-it ../data-jp/thevans/goya/prices.md
+            h2 Specs
+            .van-specs
+              include:markdown-it ../data-jp/thevans/goya/specs.md     
+      article 
+        .van-information-container
+          .max-width
+            h2#equipment Equipment Included
+          include ../data/equipment/slider.html
+          
+          .max-width
+            .equipment-info
+              include:markdown-it ../data-jp/equipment/index.md
+            h2 Additional Equipment
+            h4 **FEE PER RENTAL PERIOD **
+            .equipment-info
+              include:markdown-it ../data-jp/equipment/additional-equipment.md
+    //aside
+    //  include:markdown-it ../data-jp/home/notes/index.md

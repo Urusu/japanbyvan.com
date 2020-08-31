@@ -1,1 +1,1 @@
-Campervan Rental in Osaka, Japan
+大阪のキャンプカーレンタル

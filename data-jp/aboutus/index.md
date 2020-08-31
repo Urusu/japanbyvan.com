@@ -1,7 +1,6 @@
-A Japanese-Swiss/Swiss couple based in Osaka City.  Being completely self-refurbished and built with love, our vans are unique and cater for the needs of any kind of van traveler.
-This is why our fleet is growing slowly, but we are full of ideas and looking forward to breathing new life into many more vans to come :-)  
-We are enthusiastic (van)travelers ourselves and love to explore this beautiful country while testing our vans and finding new routes, hot springs and camp spots.
-
-Contact us if you have any questions. We look forward to meeting you soon in Japan!
+はじめまして。私たちは大阪に拠点をもつスイス×日本のハーフとスイス人の夫婦です。私たちの全てのバンは愛情を込めて改造した二台として同じもののないユニークな車両です。ですので、全てのキャンプカー旅行者のニーズにお応えします。全てDIYで作られているため、車両数をゆっくりと増やしているところですが、私たちはアイデアに満ちており、これからも多くのバンに新しい命を吹き込むことを楽しみにしています:-)
+私たち自身も熱心な（キャンプカー）旅行者であり、バンをテストドライブしながらこの美しい国の新しいルート、温泉、キャンプスポットを探索するのが大好きです。
+ご不明な点がございましたらお問い合わせください。
+皆さんにお会いできるのを楽しみにしています！
 
 **Lisa & Urs**

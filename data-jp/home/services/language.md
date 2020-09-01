@@ -1,1 +1,1 @@
-Multilingual support
+多言語サポート

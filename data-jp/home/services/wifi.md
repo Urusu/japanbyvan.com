@@ -1,1 +1,1 @@
-Tablet with internet
+タブレット(インターネット付き)

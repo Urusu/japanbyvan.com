@@ -1,9 +1,9 @@
 | | |
 | --- | --- |
-| - Built: 2004 | - Engine: 2L-4 cylinder |
-| - Curb vehicle weight: 1600kg | - Power (KW): 133 PS (98) |
-| - Seating capacity: 3 persons | - Doors number: 5 | 
-| - Transmission: Automatic | - Airbag (driver & passenger)
-| - Drive: Rear-wheel 2WD | - Dual battery system |
-| - Fuel type: Unleaded regular gasoline | - Compressor fridge
-| - Dimensions (LxWxH): 4690mm x 1.690mm x 1.960mm
+| - 年式: 2004年 | - エンジン: 2.0L 4気筒エンジン |
+| - 空車重量: 1600kg | - 最高出力(kW): 133 PS (98) |
+| - 乗車定数: 3 人 | - ドア数: 5 |
+| - 変速装置: オートマチック | - エアバッグ(運転手& 同乗者) |
+| - 駆動方式: 後輪駆動の2WD | - デュアルバッテリーシステム |
+| - 燃料タイプ: 無鉛レギュラー | - コンプレッサー式冷蔵庫 |
+| - 寸法(長x横x高): 4690mm x 1690mm x 1960mm |

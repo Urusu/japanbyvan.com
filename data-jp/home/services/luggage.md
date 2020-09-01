@@ -1,1 +1,1 @@
-Free luggage deposit
+無料の荷物預かりサービス

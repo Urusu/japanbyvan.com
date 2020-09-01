@@ -1,1 +1,1 @@
-Custom route
+カスタムルート

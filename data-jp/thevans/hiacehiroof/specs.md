@@ -1,11 +1,11 @@
 | | |
 | --- | --- |
-| - Built: 1998 | - Engine: 2.5L-4 cylinder |
-| - Curb vehicle weight: 1980kg | - Power (KW): 120 PS (88 KW) |
-| - Seating capacity: 3 persons | - Doors number: 4 | 
-| - Transmission: Automatic | - Sink
-| - Drive: Rear-wheel 2WD | - Dual battery system |
-| - Fuel type: Unleaded regular gasoline | - External hookup for charging the batteries |
-| - Roof ventilator | - Parking heater |
-| - 100V Inverter (300W) | - Compressor fridge |
-| - Dimensions (LxWxH): 5160mm x 1.690mm x 2.330mm |
+| - 年式: 1998年 | - エンジン: 2.5L 4気筒エンジン |
+| - 空車重量: 1980kg | - 最高出力(kW): 120 PS (88 KW) |
+| - 乗車定数: 3 人 | - ドア数: 4 | 
+| - 変速装置: オートマチック | - シンク
+| - 駆動方式: 後輪駆動の2WD | - デュアルバッテリーシステム |
+| - 燃料タイプ: 無鉛レギュラー | - バッテリー用外部接続口 |
+| - ルーフベンチレーター | - パーキングヒーター |
+| - 100V インバータ(350W) | - コンプレッサー式冷蔵庫 |
+| - 寸法(長x横x高): 5160mm x 1690mm x 2330mm |

@@ -1,6 +1,6 @@
 |  |  |
 | --- | --- |
-| November-February, June | JPY 8900/Day |
-| March-May, July-October | JPY 9900/Day |
-| Cleaning Fee | JPY 8000 |
-| Security Deposit | JPY 100'000|
+|11月～2月・６月 | 1日当たり8900円 |
+| ３月～５月・7月～10月 | 1日当たり9900円 |
+| クリーニング代 | 8000円 |
+| 保証金 | 100000円 |

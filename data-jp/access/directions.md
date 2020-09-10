@@ -1,20 +1,21 @@
-### Directions
+### 新大阪駅から電車でのアクセス
 
-**Access by train from Shin-Osaka station:**  
-JR Osaka Higashi Line to Minami-Suita station (Direction: Kyuhoji), JPY 130 (3 min).  
+**新大阪駅から電車でのアクセス**  
+JR おおさか東線（久宝寺駅行き）南吹田駅で下車。料金130円、所要時間3分
+南吹田駅から当事務所までは徒歩3分（300m）です。南吹田駅からの送迎をご希望の場合は事前にお知らせください。
 
-From Minami-Suita station, it is a 3 min walk to our office (300 m). Please let us know in advance if you would like us to pick you up at Minami-Suita station.
+**新大阪からのタクシーでのアクセス**  
+850円～1000円 (10 分)
 
-**Access by taxi from Shin-Osaka station:**  
-JPY 850 – JPY 1000 (10 min)  
+**関西空港からのアクセス**  
+特急「はるか」で新大阪駅まで (50 分, 2330円)  <https://www.westjr.co.jp/global/en/travel/shopping/access/train.html>
 
-**Arrival from Kansai Airport:**  
-Limited Express Haruka to Shin-Osaka (50 min, JPY 2330) <https://www.westjr.co.jp/global/en/travel/shopping/access/train.html>
+****伊丹空港からのアクセス**  
+大阪空港リムジンバスで新大阪駅まで(25 分, 510円)
+ **  
 
-**Address in Japanese:**  
+**住所**  
 564-0043 大阪府吹田市南吹田２丁目１６番17-３号  
 南吹田琥珀街34号
  
-**Address in English:**  
-2-CHŌME-16-17 MINAMISUITA, SUITA, OSAKA 564-0043  
-Kohakugai Nr. 34
+

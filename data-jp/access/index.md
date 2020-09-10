@@ -1,3 +1,3 @@
-## ACCESS
+## アクセス
 
-We are based in Osaka City, only 3 minutes by train from Shin-Osaka station which is the main transport hub in Osaka City. Please get off at Shin-Osaka station when arriving by Shinkansen, JR, airport express or subway train.
+当事務所は新大阪駅から３分、JR おおさか東線・南吹田駅となります。

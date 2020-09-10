@@ -1,36 +1,29 @@
-## FAQ
+## よくある質問
 
-### Where can I pick up/ drop off the van?
+### 車両の受け渡しと返却場所はどこになりますか？
 
-Our office is located in Osaka City, 3 minutes by train from Shin-Osaka station which is the main transport hub in Osaka city (Shinkansen, JR, airport express or subway train). Please check out our [access page](./access.html) or contact us for directions.
+当社事務所にて車両の受け渡しとなります。事務所はJR おおさか東線・南吹田駅（新大阪駅から３分）にあります。アクセス詳細はこちら [access page](./access.html)をご覧ください。ご質問等がありましたらお気軽にご連絡ください。
 
-### Why is a security deposit required? What kind of Insurance is included in the rental fee?
+### なぜデポジット（保証金）が必要なのですか？
+当社保険では100,000円分の免責金額が課せられます。自損事故が発生した場合、自己負担額がデポジットより差し引かれます。 Check out our [Terms and Conditions](./faq/Terms-and-Conditions-ENG-v1.2.pdf).
 
-Our vans are fully insured by a separate insurance company with a deductible of 100,000 JPY. In the event of an self-inflicted accident the applicable excess fee for the insurance needed to be paid will be deducted from your Security Deposit. Check out our [Terms and Conditions](./faq/Terms-and-Conditions-ENG-v1.2.pdf).
+### 事故が発生した場合、負担額の上限はいくらになりますか？
 
-### What is the maximum amount I’d have to pay in case of an accident?
+自損事故、または車両に損害が生じた場合、負担額の上限は10万円です。ただし、以下の原因による損害・傷害は保険に含まれていません。
+・貸渡証に記載された運転者以外の運転者による事故
+・飲酒運転や薬物を服用しての運転、契約条件の第17条（禁止行為）に規定されている行為　
 
-The maximum amount you’d have to pay in case of a fully self-inflicted accident or damaging of the vehicle is JPY100,000. **Not included** in the insurance are damages/injury caused by a driver not registered with japanbyvan.com during pick up of the vehicle, while driving under the influence of drugs or alcohol and damage as identified in Article 17 of Terms and Conditions (Prohibited Acts). In this case, the full amount has to be paid by the driver, regardless of the deductible amount.
+上記に当てはまる場合、免責金額に関わらず、全額が運転手の負担となります。
 
-### What kind of license do I need for driving in Japan?
+### レンタル料金にはどのような保険が含まれていますか？
 
-International Driving Permits **based on the 1949 Geneva Road Convention are required to drive legally in Japan. Belgium, France, Germany, Monaco, Estonia, Switzerland and Taiwan do not issue permits based on the 1949 Geneva Convention**, but instead have a **separate agreement** that allows drivers from these countries to drive in Japan for up to one year with **an official** Japanese translation of their driver’s license. The translation has to be obtained **before** pick-up.Translations can be obtained from the [**Japan Automobile Federation (JAF)**](http://www.jaf.or.jp/e/translation/switch.htm). We'd be happy to assist you with the process of obtaining a translation or IDP: [Details](./translation.html)
+(1) 対人補償		1人あたり無制限（自賠責保険を含む）
+(2) 対物補償　	1事故につき無制限（免責額5万円）
+(3) 車両補償　	時価まで（免責額10万円） 
+(4) 人身傷害補償　1名につき5,000万円まで
+詳細は契約条件ご覧ください。
 
-### How much does Gasoline cost in Japan?
+### 走行距離の制限はありますか？
 
-Gas prices vary from JPY 140 to JPY150/L.
+日本国内での走行距離は無制限です。
 
-### How much are the Highway fees?
-
-Highway fees vary depending on the area. Highways in major metropolitan areas like Tokyo and Osaka are much more expensive than highways in the countryside. 
-The average price per kilometer for an ordinary car is around 25 yen. There are extra fees for large suspension bridges connecting Honshu and Shikoku (i.e. Seto-Ohashi bridge). Please contact us if you would like to know the price for a specific route.
-
-A great way to save highway fees, gasoline and time are ferries (e.g. from Osaka to Kyushu). Have a look at the domestic ferry routes [here](https://www.japan-guide.com/e/e2355.html) or contact us for more information.
-
-### What kind of places are suitable for camping in Japan apart from official campsites?
-
-Sleeping in your car is allowed everywhere where it’s legally parked. There are over 1100 Road Stations ("Michi no eki") where you can park and sleep for free.  You can find detailed information and a search engine on the official [Michi no eki website](https://www.michi-no-eki.jp/about/english).
-
-### How many free kilometers are included?
-
-There ist no limit. You can drive as far as you like within Japan.

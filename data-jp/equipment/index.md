@@ -1,11 +1,11 @@
 | | |
 | --- | --- |
-| - Table and Chairs | - Portable Gas Stove |
-| - Plates, Cups and Cutlery | - Pots, Pans and Utensils |
-| - Kitchen Towels and Cleaning Utensils | - Fridge- Freezer |
-| - USB ports for charging / Car Radio | - Curtains |
-| - Portable LED light | - First aid kit |
-| - Mattress | - Pillows and Sleeping bags |
-| - Blanket | - Winter tires (Dec.-March) |
-| - Tablet with free Wifi (1GB/Week) | |
-|and Navigation System in English and Japanese
+| - 椅子、テーブル | - カセットコンロ |
+| - プレー ト、カトラリー、カップ | - 鍋釜や調 理 器具 |
+| - キッチンタオルや清掃用具 | - Fridge- Freezer |
+| - チャージ用USB ポート/カーラジ オ | - カーテン |
+| - 携帯用LEDライト | - 救 急 キット |
+| - マットレス | - 枕、寝袋|
+| - ブランケット | - 冬用タイヤ (12月～3月) |
+| - 無料 Wifiを含むタブレット (一週間当たり1GB) | |
+|英語・日本語のナビシステム（グーグルマップ）

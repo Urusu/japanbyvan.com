@@ -1,11 +1,11 @@
-| | |
+|| | |
 | --- | --- |
-| - Built: 2004 | - Engine: 2L-4 cylinder |
-| - Curb vehicle weight: 1980kg | - Power (KW): 133 PS (98) |
-| - Seating capacity: 2 persons | - Doors number: 4 | 
-| - Transmission: Automatic | - Sink
-| - Drive: Rear-wheel 2WD | - Dual battery system |
-| - Fuel type: Unleaded regular gasoline | - External hookup for charging the batteries |
-| - Roof ventilator | - Parking heater |
-| - 100V Inverter (300W) | - Compressor fridge |
-| - Dimensions (LxWxH): 5160mm x 1.690mm x 2.380mm |
+| - 年式: 2004年 | - エンジン: 2L 4気筒エンジン |
+| - 空車重量: 1980kg | - 最高出力(kW): 133 PS (98 KW) |
+| - 乗車定数: 2人 | - ドア数: 4 | 
+| - 変速装置: オートマチック | - シンク
+| - 駆動方式: 後輪駆動の2WD | - デュアルバッテリーシステム |
+| - 燃料タイプ: 無鉛レギュラー | - バッテリー用外部接続口 |
+| - ルーフベンチレーター | - パーキングヒーター |
+| - 100V インバータ(350W) | - コンプレッサー式冷蔵庫40L |
+| - 寸法(長x横x高): 5160mm x 1690mm x 2380mm |

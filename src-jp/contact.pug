@@ -1,34 +1,34 @@
 aside.contact#contact
   .max-width
-    h3.contact__title Make an inquiry or ask us anything
+    h3.contact__title お気軽にお問い合わせください
     ul 
-      li We reply to all inquiries within 24 hours
-      li If you don't receive a response, please try again and double-check your e-mail address and spam folder
-      li You can also contact us directly at + 81 80 8149 0487 or contact@japanbyvan.com
+      li すべてのお問い合わせに24時間以内にお返信します。
+      li 返信が届かない場合は、再度お試しいただき、メールアドレスと迷惑メールフォルダの確認お願いします。
+      li お電話・メール（日本語）での直接お問い合わせも可能です（080-8149-0487, contact@japanbyvan.com）
     form.form(action="https://formspree.io/contact@japanbyvan.com", method="post")
-      p *Required fields
+      p *必須項目
       label.contact__field
-        span Name*
+        span お名前*
         input(type="text", name="name", required)
       label.contact__field
-        span E-Mail*
+        span メールアドレス*
         input(type="text", name="_replyto", required)
       .contact__container
         label.contact__date
-          span Pick up [Date]
+          span 受け渡し日
           input(type="date", name="from")
         label.contact__date
-          span Drop off [Date]
+          span 返却日
           input(type="date", name="to")
       label.contact__field
-        span Preferred van
+        span 希望する車両
         select(name="vans")
-          option(value="Nothing chosen", selected) Select preferred van
+          option(value="Nothing chosen", selected) 希望する車両
           option(value="Any van is fine") Any van is fine
-          option(value="Toyota Tokushi") Toyota Tokushi
-          option(value="Toyota Hiroshi or Goya") Toyota Hiroshi or Goya
+          option(value="Toyota Tokushi") トクシ
+          option(value="Toyota Hiroshi or Goya") ヒロシ・ゴウヤ
       label.contact__field
-        span Drivers License Issuing Country
+        span 運転免許証発行国
         select(name="country")
           option(value="nothing selected", selected) Select country
           option(value="Afganistan") Afghanistan
@@ -278,7 +278,7 @@ aside.contact#contact
           option(value="Zambia") Zambia
           option(value="Zimbabwe") Zimbabwe
       label.contact__message
-        span Your message*
+        span メッセージ*
         textarea(name="message", cols="30", rows="10", required)
       label.contact__subject
         input(type="hidden", name="_subject", value="Japan By Van Inquiry")

@@ -1,3 +1,5 @@
->Sterling service from both Urs and Lisa. They went above and beyond to help us out. They gave all the advice and information we needed to have a brilliant trip. Couldn't recommend this service more if you want to see the parts of Japan a lot of tourists don't get to see.
+>５日間の３密回避旅行のために妻と二人で「ゴーヤ」を借りました（各車両には名前があるようです）。車内泊は初めてだったのですが、特別な体験で車を返却する際には寂しさを感じました（ゴーヤはもう私たちの友達です）。機会があったら、またJapanbyvanさんにお世話になろうと思います。
+装備も旅行中に必要なものはほぼ揃っていて、食べ物以外の旅行中に必要となるお買い物はありませんでした。長期利用の場合はコインランドリーなどを使って荷物を減らしたほうが便利かも？
+オーナーのスイス人夫婦も親切で、よく日本の事情を知っていらっしゃる。特に車内泊をしたことがない人は、道の駅やキャンプ場について予め相談してみたら旅がしやすくなるかもしれません。
 
-*Chris / UK*
+*ユウタ / 大阪*

@@ -1,5 +1,7 @@
 ### Directions
 
+How to get to our office from JR Minami Suita station [(PDF)](./access/JapanByVan-Drections.pdf)
+
 **Access by train from Shin-Osaka station:**  
 JR Osaka Higashi Line to Minami-Suita station (Direction: Kyuhoji), JPY 130 (3 min).  
 

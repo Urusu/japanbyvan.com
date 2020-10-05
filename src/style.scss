@@ -354,8 +354,7 @@ ul, li {
     bottom:21%;
     justify-content: center;
     @include bp(mobile) {
-            font-size: 1.5rem;
-            bottom: 9%;
+      font-size: 1.5rem;
     }
   }
 }

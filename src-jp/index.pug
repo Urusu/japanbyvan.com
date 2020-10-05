@@ -14,18 +14,13 @@ block body
     aside.intro-container
       .max-width
         .intro
-          .intro-content
-            include:markdown-it ../data-jp/home/intro.md
-          .intro-map
-            include ../src/images/jbv-location.svg
+          include:markdown-it ../data-jp/home/intro.md
 
     section.contents
       article.max-width
         include:markdown-it ../data-jp/home/reviews/index.md
         include:markdown-it ../data-jp/home/reviews/review1.md
-        include:markdown-it ../data-jp/home/reviews/review2.md
-        include:markdown-it ../data-jp/home/reviews/review3.md
-        include:markdown-it ../data-jp/home/reviews/review4.md
+        
         .reviews.t-lead
           a(class="button button--reviews" href="https://www.facebook.com/pg/japanbyvan/reviews") もっと見る
       //aside

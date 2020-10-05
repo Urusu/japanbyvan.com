@@ -341,6 +341,7 @@ ul, li {
   font-weight: bold;
   @include bp(mobile) {
     font-size: 1.5rem;
+    bottom: 7%;
   }
   @include bp(tablet) {
     font-size: 2rem;
@@ -353,6 +354,7 @@ ul, li {
     bottom:21%;
     justify-content: center;
     @include bp(mobile) {
+            font-size: 1.5rem;
             bottom: 9%;
     }
   }

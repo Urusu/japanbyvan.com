@@ -340,7 +340,8 @@ ul, li {
   font-size: 2rem;
   font-weight: bold;
   @include bp(mobile) {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
     bottom: 10%;
   }
   @include bp(tablet) {
@@ -469,6 +470,9 @@ ul, li {
   font-weight: bold; 
   font-size: 1.2em;
   text-align: center;
+  @include bp(mobile) {
+    font-size: 1em;
+  }
 }
 
 .reviews {

@@ -221,6 +221,9 @@ ul, li {
   overflow: hidden;
   img {
     margin: -4rem 0;
+    @include bp(mobile){
+      margin: -2rem 0;
+    }
   }
 }
 

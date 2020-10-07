@@ -102,7 +102,7 @@ gulp.task('script', () => {
 
 gulp.task('docs', () => {
   return gulp
-    .src('data/**/*.pdf')
+    .src(['data/**/*.pdf', 'data-jp/**/*.pdf'])
     .pipe(gulp.dest('build/en'))
     .pipe(gulp.dest('build/jp'));
 });

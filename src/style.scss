@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Source+Sans+Pro:400,600');
 
 $breakpoints: (
-  mobile: 'max-width: 40rem',
-  tablet: 'max-width: 64rem',
-  desktop: 'min-width: 64.063rem',
+  mobile: 'max-width: 600px',
+  tablet: 'min-width: 768px',
+  desktop: 'min-width: 770px',
 );
 
 @mixin bp($name) {
@@ -301,7 +301,7 @@ ul, li {
     width: 76%;
     height: auto;
     @include bp(mobile) {
-      margin-top: -1rem;
+      margin-top: auto;
     }
   }
   position: relative;
@@ -470,7 +470,7 @@ ul, li {
   font-size: 1.2em;
   text-align: center;
   @include bp(mobile) {
-    font-size: 1em;
+    font-size: 0.8rem;
   }
 }
 

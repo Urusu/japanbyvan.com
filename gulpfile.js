@@ -45,17 +45,29 @@ gulp.task('css', () => {
       errLogToConsole: true
     }).on('error', sass.logError))
     .pipe(postcss())
-    .pipe(gulp.dest('./build/css'));
+    .pipe(gulp.dest('./build/en/css'))
+    .pipe(gulp.dest('./build/jp/css'));
 });
 
-gulp.task('html', () => {
+gulp.task('html-en', () => {
   return gulp.src('./src/*.pug')
     .pipe( data({
-      images: images
+      images: images,
+      lng: "en"
     }) )
     .pipe( pug() )
-    .pipe( gulp.dest('./build/') );
+    .pipe( gulp.dest('./build/en/') );
 });
+
+gulp.task('html-jp', () => {
+  return gulp.src('./src-jp/*.pug')
+    .pipe( data({
+      images: images,
+      lng: "jp"
+    }) )
+    .pipe( pug() )
+    .pipe( gulp.dest('./build/jp/') );
+  });
 
 gulp.task('css:watch', () => {
   gulp.watch('./src/**/*.scss', ['css']);
@@ -75,7 +87,8 @@ gulp.task('images', (done) => {
     }))
     .pipe(imagemin())
     **/
-    .pipe(gulp.dest('./build/images/'))
+    .pipe(gulp.dest('./build/en/images/'))
+    .pipe(gulp.dest('./build/jp/images/'))
     done();
 });
 
@@ -83,25 +96,29 @@ gulp.task('script', () => {
   return gulp
     .src('src/*.js')
     .pipe(babel())
-    .pipe(gulp.dest('build'));
+    .pipe(gulp.dest('build/en'))
+    .pipe(gulp.dest('build/jp'));
 });
 
 gulp.task('docs', () => {
   return gulp
-    .src('data/**/*.pdf')
-    .pipe(gulp.dest('build'));
+    .src(['data/**/*.pdf', 'data-jp/**/*.pdf'])
+    .pipe(gulp.dest('build/en'))
+    .pipe(gulp.dest('build/jp'));
 });
 
 gulp.task('lightgallery', () => {
   return gulp
     .src(['src/fonts/**/*', 'src/images/**/*', 'src/js/**/*', 'src/css/**/*'], {base: 'src'})
-    .pipe(gulp.dest('build'));
+    .pipe(gulp.dest('build/en'))
+    .pipe(gulp.dest('build/jp'));
 });
 
 gulp.task('favicon', () => {
   return gulp
     .src(['src/favicon/**/*'], {base: 'src'})
-    .pipe(gulp.dest('build'));
+    .pipe(gulp.dest('build/en'))
+    .pipe(gulp.dest('build/jp'));
 });
 /*
 gulp.task('script', callback => {
@@ -119,7 +136,7 @@ gulp.task('script', callback => {
 });*/
 
 
-gulp.task('build', gulp.series('clean', gulp.parallel('script', 'css', 'images', 'lightgallery', 'favicon', 'docs'), gulp.series('html')));
+gulp.task('build', gulp.series('clean', gulp.parallel('script', 'css', 'images', 'lightgallery', 'favicon', 'docs'), gulp.series('html-en','html-jp')));
 
 
 gulp.task('default', gulp.series('build'));

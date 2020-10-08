@@ -1,0 +1,11 @@
+extends layout
+
+block body
+  main
+    section.contents.max-width
+      include nav.pug
+      article
+        include:markdown-it ../data-jp/aboutus/index.md
+        img(class="about-us", src="./images/aboutus/img/aboutus.jpg", alt="About Us")
+      //aside
+      //  include:markdown-it ../data/home/notes/index.md

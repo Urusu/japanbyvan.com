@@ -6,7 +6,7 @@ Our office is located in Osaka City, 3 minutes by train from Shin-Osaka station 
 
 ### Why is a security deposit required? What kind of Insurance is included in the rental fee?
 
-Our vans are fully insured by a separate insurance company with a deductible of 100,000 JPY. In the event of an self-inflicted accident the applicable excess fee for the insurance needed to be paid will be deducted from your Security Deposit. Check out our [Terms and Conditions](./faq/Terms-and-Conditions-ENG-v1.2.pdf).
+Our vans are fully insured by a separate insurance company with a deductible of 100,000 JPY. In the event of a self-inflicted accident the applicable excess fee for the insurance needed to be paid will be deducted from your Security Deposit. Check out our [Terms and Conditions](./faq/Terms-and-Conditions-ENG-v1.2.pdf).
 
 ### What is the maximum amount I’d have to pay in case of an accident?
 
@@ -33,4 +33,4 @@ Sleeping in your car is allowed everywhere where it’s legally parked. There ar
 
 ### How many free kilometers are included?
 
-There ist no limit. You can drive as far as you like within Japan.
+There is no limit. You can drive as far as you like within Japan.

@@ -1,0 +1,27 @@
+extends layout
+
+block body
+  main
+    section.contents.max-width
+      aside.t-lead
+        a(class="button button--booknow" href='#contact') お問い合わせ
+    aside
+      include vanprofile.pug
+    section.contents
+      include services.pug
+    .max-width
+      include nav.pug
+    aside.intro-container
+      .max-width
+        .intro
+          include:markdown-it ../data-jp/home/intro.md
+
+    section.contents
+      article.max-width
+        include:markdown-it ../data-jp/home/reviews/index.md
+        include:markdown-it ../data-jp/home/reviews/review1.md
+        
+        .reviews.t-lead
+          a(class="button button--reviews" href="https://www.facebook.com/pg/japanbyvan/reviews") もっと見る
+      //aside
+      //  include:markdown-it ../data-jp/home/notes/index.md

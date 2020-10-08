@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Source+Sans+Pro:400,600');
 
 $breakpoints: (
-  mobile: 'max-width: 40rem',
-  tablet: 'max-width: 64rem',
-  desktop: 'min-width: 64.063rem',
+  mobile: 'max-width: 600px',
+  tablet: 'min-width: 768px',
+  desktop: 'min-width: 770px',
 );
 
 @mixin bp($name) {
@@ -141,7 +141,7 @@ a {
 }
 
 ul, li {
-  margin: 1rem auto;
+  margin: auto;
 }
 
 .is-hidden {
@@ -221,6 +221,9 @@ ul, li {
   overflow: hidden;
   img {
     margin: -4rem 0;
+    @include bp(mobile){
+      margin: -2rem 0;
+    }
   }
 }
 
@@ -301,7 +304,7 @@ ul, li {
     width: 76%;
     height: auto;
     @include bp(mobile) {
-      margin-top: -1rem;
+      margin-top: auto;
     }
   }
   position: relative;
@@ -337,10 +340,11 @@ ul, li {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 0 10%;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  font-weight: bold;
   @include bp(mobile) {
     font-size: 1.5rem;
-    bottom: 10%;
+    bottom: 7%;
   }
   @include bp(tablet) {
     font-size: 2rem;
@@ -353,7 +357,7 @@ ul, li {
     bottom:21%;
     justify-content: center;
     @include bp(mobile) {
-            bottom: 9%;
+      font-size: 1.5rem;
     }
   }
 }
@@ -392,6 +396,7 @@ ul, li {
   border: 0.15rem solid var(--black);
   margin-bottom: 2rem;
   box-shadow: 0.5rem 0.5rem 0 var(--interaction);
+  margin-top: 1rem;
 }
 
 .intro-container {
@@ -468,6 +473,9 @@ ul, li {
   font-weight: bold; 
   font-size: 1.2em;
   text-align: center;
+  @include bp(mobile) {
+    font-size: 0.8rem;
+  }
 }
 
 .reviews {
@@ -483,6 +491,7 @@ table {
 
 td {
   text-align: left;
+  width: 50%;
 }
 
 .contact {

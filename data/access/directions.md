@@ -18,3 +18,5 @@ Limited Express Haruka to Shin-Osaka (50 min, JPY 2330) <https://www.westjr.co.j
 **Address in English:**  
 2-CHŌME-16-17 MINAMISUITA, SUITA, OSAKA 564-0043  
 Kohakugai Nr. 34
+
+[How to get to our office from JR Minami Suita station](./access/JapanByVan-Drections.pdf)

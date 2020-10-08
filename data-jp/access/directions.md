@@ -7,7 +7,7 @@ JR おおさか東線（久宝寺駅行き）南吹田駅で下車。料金130�
 850円～1000円 (10 分)
 
 **関西空港からのアクセス**  
-特急「はるか」で新大阪駅まで (50 分, 2330円)  <https://www.westjr.co.jp/global/en/travel/shopping/access/train.html>
+特急「はるか」で新大阪駅まで (50 分, 2330円)  <https://www.kansai-airport.or.jp/access/train>
 
 **伊丹空港からのアクセス**  
 大阪空港リムジンバスで新大阪駅まで(25 分, 510円)  

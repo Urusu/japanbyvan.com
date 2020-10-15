@@ -191,14 +191,14 @@ ul, li {
   height: auto;
   margin: -2rem auto 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   @include bp(mobile) {
     flex-wrap: wrap;
   }
 }
 
 .service {
-  flex: 0 0 13%;
+  flex: 0 0 auto;
   text-align: center;
   @include bp(mobile){
     font-size: 0.9rem;
@@ -466,15 +466,18 @@ ul, li {
   list-style: none;
   margin: 0; 
   padding: 0;
+  @include bp(mobile) {
+    flex-wrap: wrap;
+  }
 }
 .navigation__item {
-  flex: 1 1 auto; 
-  display: inline-block;
+  flex: 0 0 auto; 
+  justify-content: space-around;
   font-weight: bold; 
   font-size: 1.2em;
   text-align: center;
   @include bp(mobile) {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 }
 

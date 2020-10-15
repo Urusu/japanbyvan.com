@@ -16,7 +16,7 @@
 
 nav.navigation
   h3.is-hidden Main Navigation
-  ol.navigation__list
+  .navigation__list
     each navItem in navigation
-      li.navigation__item: a(href=navItem.route)= navItem.title
+      .navigation__item: a(href=navItem.route)= navItem.title
   

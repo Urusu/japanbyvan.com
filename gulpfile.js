@@ -6,7 +6,7 @@ const gulp = require('gulp'),
   // content
   data = require('gulp-data'),
   imagemin = require('gulp-imagemin'),
-  responsive = require('gulp-responsive'),
+  //responsive = require('gulp-responsive'),
   md = require('jstransformer')(require('jstransformer-markdown-it')),
   // system
   del = require('del'),

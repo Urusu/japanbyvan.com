@@ -6,4 +6,5 @@
 | - Transmission: Automatic | - Airbag (driver & passenger)
 | - Drive: Rear-wheel 2WD | - Dual battery system |
 | - Fuel type: Unleaded regular gasoline | - Compressor fridge
+| - 200W Solar system 
 | - Dimensions (LxWxH): 4690mm x 1.690mm x 1.960mm

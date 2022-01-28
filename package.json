@@ -56,7 +56,7 @@
     "node-sass-json-importer": "^4.3.0",
     "postcss": "^8.0.0",
     "sharp": "^0.28.3",
-    "simple-get": "^3.1.0",
+    "simple-get": "^4.0.1",
     "simplelightbox": "^1.17.3",
     "string-width": "^2.1.1",
     "vips": "^1.0.0",

@@ -52,7 +52,7 @@
     "lightgallery.js": "^1.4.0",
     "napi-build-utils": "^1.0.2",
     "node-gyp": "^3.8.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "node-sass-json-importer": "^4.3.0",
     "postcss": "^8.0.0",
     "sharp": "^0.28.3",
